@@ -1,0 +1,342 @@
+New solution created: New Solution, 7/3/2018 4:26:29 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:36:13 PM
+Added input file: CommandLine.dll, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:36:13 PM
+Added input file: CommandLine.xml, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:36:13 PM
+Added input file: NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:36:13 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:36:13 PM
+Added input file: stdole.dll, 7/3/2018 5:36:13 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 5:38:06 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 5:40:06 PM
+TestStand Executor: build started., 7/3/2018 5:40:13 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 5:40:13 PM
+TestStand Executor build complete., 7/3/2018 5:40:14 PM
+All distribution builds are complete., 7/3/2018 5:40:14 PM
+TestStand Executor: build started., 7/3/2018 5:40:38 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 5:40:38 PM
+TestStand Executor build complete., 7/3/2018 5:40:38 PM
+All distribution builds are complete., 7/3/2018 5:40:38 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\niteststand_remote_executor.py, 7/3/2018 5:44:28 PM
+Added input file: niteststand_remote_executor.py, 7/3/2018 5:44:28 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:44:35 PM
+Added input file: niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:44:35 PM
+TestStand Executor: build started., 7/3/2018 5:45:21 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\niteststand_remote_executor.py, 7/3/2018 5:45:21 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:45:21 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:45:21 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\niteststand_remote_executor.py, 7/3/2018 5:45:21 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:45:21 PM
+TestStand Executor build complete., 7/3/2018 5:45:22 PM
+All distribution builds are complete., 7/3/2018 5:45:22 PM
+TestStand Executor: build started., 7/3/2018 5:46:14 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\niteststand_remote_executor.py, 7/3/2018 5:46:14 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:46:14 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:46:14 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\niteststand_remote_executor.py, 7/3/2018 5:46:14 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:46:14 PM
+TestStand Executor build complete., 7/3/2018 5:46:14 PM
+All distribution builds are complete., 7/3/2018 5:46:14 PM
+TestStand Executor: build started., 7/3/2018 5:46:24 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\niteststand_remote_executor.py, 7/3/2018 5:46:24 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:46:24 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:46:24 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\niteststand_remote_executor.py, 7/3/2018 5:46:24 PM
+No plugin found for: C:\ProgramData\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:46:24 PM
+TestStand Executor build complete., 7/3/2018 5:46:24 PM
+All distribution builds are complete., 7/3/2018 5:46:24 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 5:48:52 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 5:50:17 PM
+Added input file: niteststand_remote_executor.py, 7/3/2018 5:50:17 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:50:22 PM
+Added input file: niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:50:22 PM
+TestStand Executor WebVI: build started., 7/3/2018 5:51:55 PM
+TestStand Executor: build started., 7/3/2018 5:51:55 PM
+Performing Analysis of package distribution: TestStand Executor WebVI, 7/3/2018 5:51:55 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:51:55 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 5:51:55 PM
+TestStand Executor build complete., 7/3/2018 5:51:55 PM
+TestStand Executor WebVI: Required attribute 'Description' value cannot be empty., 7/3/2018 5:51:56 PM
+TestStand Executor WebVI: build failed., 7/3/2018 5:51:56 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 5:52:40 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 5:58:11 PM
+TestStand Executor WebVI: build started., 7/3/2018 5:58:33 PM
+TestStand Executor: build started., 7/3/2018 5:58:33 PM
+Performing Analysis of package distribution: TestStand Executor WebVI, 7/3/2018 5:58:33 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 5:58:33 PM
+TestStand Executor WebVI build complete., 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 5:58:33 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 5:58:33 PM
+TestStand Executor build complete., 7/3/2018 5:58:33 PM
+All distribution builds are complete., 7/3/2018 5:58:33 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 6:00:52 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 6:03:08 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 6:03:29 PM
+TestStand Executor: build started., 7/3/2018 6:03:35 PM
+TestStand Executor WebVI: build started., 7/3/2018 6:03:35 PM
+Performing Analysis of package distribution: TestStand Executor WebVI, 7/3/2018 6:03:35 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 6:03:35 PM
+TestStand Executor WebVI build complete., 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 6:03:35 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 6:03:35 PM
+TestStand Executor build complete., 7/3/2018 6:03:36 PM
+All distribution builds are complete., 7/3/2018 6:03:36 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 7:01:40 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 7:01:44 PM
+New solution created: New Solution, 7/3/2018 7:11:13 PM
+Solution closed: New Solution, 7/3/2018 7:11:31 PM
+===================================, 7/3/2018 7:11:31 PM
+Solution opened: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 7:11:32 PM
+[TestStand Plugin] Getting dependencies for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\Computer Motherboard Tests.seq, 7/3/2018 7:13:09 PM
+[TestStand Plugin] Identified dependency: Computer Motherboard Tests.seq, 7/3/2018 7:13:09 PM
+[TestStand Plugin] Identified dependency: computer.dll, 7/3/2018 7:13:09 PM
+[TestStand Plugin] Identified dependency: computer.c, 7/3/2018 7:13:09 PM
+[TestStand Plugin] Identified dependency: computer.prj, 7/3/2018 7:13:09 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.c, 7/3/2018 7:13:09 PM
+Added input file: computer.c, 7/3/2018 7:13:09 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.cws, 7/3/2018 7:13:09 PM
+Added input file: computer.cws, 7/3/2018 7:13:09 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.dll, 7/3/2018 7:13:09 PM
+Added input file: computer.dll, 7/3/2018 7:13:09 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.h, 7/3/2018 7:13:09 PM
+Added input file: computer.h, 7/3/2018 7:13:09 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.lib, 7/3/2018 7:13:09 PM
+Added input file: computer.lib, 7/3/2018 7:13:09 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.prj, 7/3/2018 7:13:09 PM
+Added input file: computer.prj, 7/3/2018 7:13:09 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.uir, 7/3/2018 7:13:09 PM
+Added input file: computer.uir, 7/3/2018 7:13:09 PM
+TestStand Executor: build started., 7/3/2018 7:17:28 PM
+Computer Motherboard Test: build started., 7/3/2018 7:17:28 PM
+Performing Analysis of package distribution: Computer Motherboard Test, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.c, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.prj, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.cws, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.h, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.lib, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.uir, 7/3/2018 7:17:28 PM
+Performing Analysis of package distribution: TestStand Executor, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.c, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.prj, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.cws, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.h, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.lib, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.uir, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc, 7/3/2018 7:17:28 PM
+No plugin found for: C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py, 7/3/2018 7:17:28 PM
+TestStand Executor build complete., 7/3/2018 7:17:28 PM
+Computer Motherboard Test build complete., 7/3/2018 7:17:28 PM
+All distribution builds are complete., 7/3/2018 7:17:28 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 7:21:04 PM
+Solution saved to: C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\TestStand Executor.pbs, 7/3/2018 7:21:12 PM

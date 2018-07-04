@@ -1,0 +1,11 @@
+Package: ni-computermotherboardtest
+Version: 1.0.0.0
+Section: Infrastructure
+Architecture: windows_x64
+Maintainer: Josh Prewitt <support@ni.com>
+XB-DisplayName: Computer Motherboard Test
+Description: teststand example sequence
+Built-Using: nipkg
+XB-Plugin: file
+UserVisible: true
+VisibleForDeployment: yes

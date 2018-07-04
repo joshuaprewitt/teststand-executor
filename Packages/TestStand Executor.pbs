@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Solution>
+  <Name>
+    <string>TestStand Executor</string>
+  </Name>
+  <InputSourceItems>
+    <SourceItem id="0">
+      <Name>
+        <string>CommandLine.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="1">
+      <Name>
+        <string>CommandLine.xml</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\CommandLine.xml</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="2">
+      <Name>
+        <string>NationalInstruments.TestStand.Interop.AdapterAPI.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="3">
+      <Name>
+        <string>NationalInstruments.TestStand.Interop.API.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="4">
+      <Name>
+        <string>NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="5">
+      <Name>
+        <string>NationalInstruments.TestStand.Interop.UI.AxControls.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="6">
+      <Name>
+        <string>NationalInstruments.TestStand.Interop.UI.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="7">
+      <Name>
+        <string>NationalInstruments.TestStand.Interop.UI.Support.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="8">
+      <Name>
+        <string>NationalInstruments.TestStand.Utility.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStand.Utility.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="9">
+      <Name>
+        <string>NationalInstruments.TestStandExecutor.exe</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="10">
+      <Name>
+        <string>NationalInstruments.TestStandExecutor.exe.config</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="11">
+      <Name>
+        <string>NationalInstruments.TestStandExecutor.pdb</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\NationalInstruments.TestStandExecutor.pdb</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="12">
+      <Name>
+        <string>stdole.dll</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\TestStand Executor\stdole.dll</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="13">
+      <Name>
+        <string>niteststand_remote_executor.py</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\niteststand_remote_executor.py</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="14">
+      <Name>
+        <string>niteststand_remote_executor.cpython-36.pyc</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\salt module\__pycache__\niteststand_remote_executor.cpython-36.pyc</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="15">
+      <Name>
+        <string>Computer Motherboard Tests.seq</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\Computer Motherboard Tests.seq</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+      <DependentItems>
+        <SourceItem id="16">
+          <Name>
+            <string>computer.dll</string>
+          </Name>
+          <SrcFullPath>
+            <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.dll</string>
+          </SrcFullPath>
+          <IsFolderInputItem>
+            <boolean>false</boolean>
+          </IsFolderInputItem>
+          <FolderDependenciesDiscovered>
+            <boolean>true</boolean>
+          </FolderDependenciesDiscovered>
+        </SourceItem>
+        <SourceItem id="17">
+          <Name>
+            <string>computer.c</string>
+          </Name>
+          <SrcFullPath>
+            <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.c</string>
+          </SrcFullPath>
+          <IsFolderInputItem>
+            <boolean>false</boolean>
+          </IsFolderInputItem>
+          <FolderDependenciesDiscovered>
+            <boolean>true</boolean>
+          </FolderDependenciesDiscovered>
+        </SourceItem>
+        <SourceItem id="18">
+          <Name>
+            <string>computer.prj</string>
+          </Name>
+          <SrcFullPath>
+            <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.prj</string>
+          </SrcFullPath>
+          <IsFolderInputItem>
+            <boolean>false</boolean>
+          </IsFolderInputItem>
+          <FolderDependenciesDiscovered>
+            <boolean>true</boolean>
+          </FolderDependenciesDiscovered>
+        </SourceItem>
+      </DependentItems>
+    </SourceItem>
+    <SourceItem id="17" />
+    <SourceItem id="19">
+      <Name>
+        <string>computer.cws</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.cws</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="16" />
+    <SourceItem id="20">
+      <Name>
+        <string>computer.h</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.h</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="21">
+      <Name>
+        <string>computer.lib</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.lib</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+    <SourceItem id="18" />
+    <SourceItem id="22">
+      <Name>
+        <string>computer.uir</string>
+      </Name>
+      <SrcFullPath>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Computer Motherboard Tests\computer.uir</string>
+      </SrcFullPath>
+      <IsFolderInputItem>
+        <boolean>false</boolean>
+      </IsFolderInputItem>
+      <FolderDependenciesDiscovered>
+        <boolean>true</boolean>
+      </FolderDependenciesDiscovered>
+    </SourceItem>
+  </InputSourceItems>
+  <SourceItems>
+    <SourceItem id="0" />
+    <SourceItem id="1" />
+    <SourceItem id="2" />
+    <SourceItem id="3" />
+    <SourceItem id="4" />
+    <SourceItem id="5" />
+    <SourceItem id="6" />
+    <SourceItem id="7" />
+    <SourceItem id="8" />
+    <SourceItem id="9" />
+    <SourceItem id="10" />
+    <SourceItem id="11" />
+    <SourceItem id="12" />
+    <SourceItem id="13" />
+    <SourceItem id="14" />
+    <SourceItem id="15" />
+    <SourceItem id="16" />
+    <SourceItem id="17" />
+    <SourceItem id="18" />
+    <SourceItem id="19" />
+    <SourceItem id="20" />
+    <SourceItem id="21" />
+    <SourceItem id="22" />
+  </SourceItems>
+  <Distributions>
+    <Distribution id="23">
+      <Name>
+        <string>TestStand Executor</string>
+      </Name>
+      <DistributionItems>
+        <DistributionDirectoryItem id="24">
+          <Name>
+            <string>National Instruments</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="25">
+          <Name>
+            <string>TestStand Executor</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionFileItem id="26">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="0" />
+          <Name>
+            <string>CommandLine.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\CommandLine.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="27">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="1" />
+          <Name>
+            <string>CommandLine.xml</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\CommandLine.xml</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="28">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="2" />
+          <Name>
+            <string>NationalInstruments.TestStand.Interop.AdapterAPI.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStand.Interop.AdapterAPI.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="29">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="3" />
+          <Name>
+            <string>NationalInstruments.TestStand.Interop.API.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStand.Interop.API.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="30">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="4" />
+          <Name>
+            <string>NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStand.Interop.SequenceAnalyzer.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="31">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="5" />
+          <Name>
+            <string>NationalInstruments.TestStand.Interop.UI.AxControls.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStand.Interop.UI.AxControls.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="32">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="6" />
+          <Name>
+            <string>NationalInstruments.TestStand.Interop.UI.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStand.Interop.UI.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="33">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="7" />
+          <Name>
+            <string>NationalInstruments.TestStand.Interop.UI.Support.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStand.Interop.UI.Support.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="34">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="8" />
+          <Name>
+            <string>NationalInstruments.TestStand.Utility.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStand.Utility.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="35">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="9" />
+          <Name>
+            <string>NationalInstruments.TestStandExecutor.exe</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStandExecutor.exe</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="36">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="10" />
+          <Name>
+            <string>NationalInstruments.TestStandExecutor.exe.config</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStandExecutor.exe.config</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="37">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="11" />
+          <Name>
+            <string>NationalInstruments.TestStandExecutor.pdb</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\NationalInstruments.TestStandExecutor.pdb</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="38">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="12" />
+          <Name>
+            <string>stdole.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[Program Files]\National Instruments\TestStand Executor\stdole.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionDirectoryItem id="39">
+          <Name>
+            <string>National Instruments</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="40">
+          <Name>
+            <string>salt</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="41">
+          <Name>
+            <string>var</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="42">
+          <Name>
+            <string>cache</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var\cache</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="43">
+          <Name>
+            <string>salt</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var\cache\salt</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="44">
+          <Name>
+            <string>minion</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var\cache\salt\minion</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="45">
+          <Name>
+            <string>extmods</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var\cache\salt\minion\extmods</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="46">
+          <Name>
+            <string>modules</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var\cache\salt\minion\extmods\modules</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionDirectoryItem id="47">
+          <Name>
+            <string>__pycache__</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionFileItem id="48">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="14" />
+          <Name>
+            <string>niteststand_remote_executor.cpython-36.pyc</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var\cache\salt\minion\extmods\modules\__pycache__\niteststand_remote_executor.cpython-36.pyc</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="49">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="13" />
+          <Name>
+            <string>niteststand_remote_executor.py</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[ProgramData]\National Instruments\salt\var\cache\salt\minion\extmods\modules\niteststand_remote_executor.py</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+      </DistributionItems>
+      <DistributionOutputType>
+        <DistributionOutputType>NiPackage</DistributionOutputType>
+      </DistributionOutputType>
+      <OutputDirectory>
+        <string>C:\Users\lvadmin\Documents\GitHub\teststand-executor\Packages\NiPackages</string>
+      </OutputDirectory>
+      <PackageDist id="50">
+        <Distribution id="23" />
+        <ProductName>
+          <string>TestStand Executor</string>
+        </ProductName>
+        <CompanyName>
+          <string>NI</string>
+        </CompanyName>
+        <MaintainerName>
+          <string>Josh Prewitt</string>
+        </MaintainerName>
+        <MaintainerEmail>
+          <string>support@ni.com</string>
+        </MaintainerEmail>
+        <Homepage type="null" />
+        <ReadMeTextFile type="null" />
+        <LicenseFile type="null" />
+        <RequiresImmediateReboot>
+          <boolean>false</boolean>
+        </RequiresImmediateReboot>
+        <ShortDescription>
+          <string>Enables you to remotely execute TestStand sequences usingSystemLink</string>
+        </ShortDescription>
+        <PackageName>
+          <string>ni-teststandexecutor</string>
+        </PackageName>
+        <DisplayName>
+          <string>TestStand Executor</string>
+        </DisplayName>
+        <Section>
+          <string>Infrastructure</string>
+        </Section>
+        <Version>
+          <string>1.0.0.4</string>
+        </Version>
+        <DisplayVersion>
+          <string>1.0.0</string>
+        </DisplayVersion>
+        <Architecture>
+          <string>windows_x64</string>
+        </Architecture>
+      </PackageDist>
+    </Distribution>
+    <Distribution id="51">
+      <Name>
+        <string>Computer Motherboard Test</string>
+      </Name>
+      <DistributionItems>
+        <DistributionDirectoryItem id="52">
+          <Name>
+            <string>Computer Motherboard Tests</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests</string>
+          </DestRelativePath>
+        </DistributionDirectoryItem>
+        <DistributionFileItem id="53">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="15" />
+          <Name>
+            <string>Computer Motherboard Tests.seq</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests\Computer Motherboard Tests.seq</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="54">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="16" />
+          <Name>
+            <string>computer.dll</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests\computer.dll</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="55">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="17" />
+          <Name>
+            <string>computer.c</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests\computer.c</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="56">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="18" />
+          <Name>
+            <string>computer.prj</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests\computer.prj</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="57">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="19" />
+          <Name>
+            <string>computer.cws</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests\computer.cws</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="58">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="20" />
+          <Name>
+            <string>computer.h</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests\computer.h</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="59">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="21" />
+          <Name>
+            <string>computer.lib</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests\computer.lib</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+        <DistributionFileItem id="60">
+          <ActiveXServer>
+            <boolean>false</boolean>
+          </ActiveXServer>
+          <InstallToGac>
+            <boolean>false</boolean>
+          </InstallToGac>
+          <CreateProgramItem>
+            <boolean>false</boolean>
+          </CreateProgramItem>
+          <SourceItem id="22" />
+          <Name>
+            <string>computer.uir</string>
+          </Name>
+          <ReadOnly>
+            <boolean>false</boolean>
+          </ReadOnly>
+          <Hidden>
+            <boolean>false</boolean>
+          </Hidden>
+          <System>
+            <boolean>false</boolean>
+          </System>
+          <DestRelativePath>
+            <string>[TestStand Public Documents]\Computer Motherboard Tests\computer.uir</string>
+          </DestRelativePath>
+        </DistributionFileItem>
+      </DistributionItems>
+      <DistributionOutputType>
+        <DistributionOutputType>NiPackage</DistributionOutputType>
+      </DistributionOutputType>
+      <OutputDirectory>
+        <string>NiPackages</string>
+      </OutputDirectory>
+      <PackageDist id="61">
+        <Distribution id="51" />
+        <ProductName>
+          <string>Computer Motherboard Test</string>
+        </ProductName>
+        <CompanyName>
+          <string>NI</string>
+        </CompanyName>
+        <MaintainerName>
+          <string>Josh Prewitt</string>
+        </MaintainerName>
+        <MaintainerEmail>
+          <string>support@ni.com</string>
+        </MaintainerEmail>
+        <Homepage type="null" />
+        <ReadMeTextFile type="null" />
+        <LicenseFile type="null" />
+        <RequiresImmediateReboot>
+          <boolean>false</boolean>
+        </RequiresImmediateReboot>
+        <ShortDescription>
+          <string>TestStand example sequence</string>
+        </ShortDescription>
+        <PackageName>
+          <string>ni-computermotherboardtest</string>
+        </PackageName>
+        <DisplayName>
+          <string>Computer Motherboard Test</string>
+        </DisplayName>
+        <Section>
+          <string>Infrastructure</string>
+        </Section>
+        <Version>
+          <string>1.0.0.0</string>
+        </Version>
+        <DisplayVersion>
+          <string>1.0.0</string>
+        </DisplayVersion>
+        <Architecture>
+          <string>windows_x64</string>
+        </Architecture>
+      </PackageDist>
+    </Distribution>
+  </Distributions>
+  <Feeds />
+  <StageRootDir type="null" />
+</Solution>

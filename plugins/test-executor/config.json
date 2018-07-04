@@ -1,0 +1,30 @@
+{
+   "authorizationMarker": "/plugins/test-executor/resources/marker.txt",
+   "buttonIconCls": "fa fa-play",
+   "buttonLabelToken": "test-executor.pluginTitle",
+   "buttonTooltipToken": "test-executor.pluginTitle",
+   "favicon":"plugins/test-executor/resources/images/SkylineIcons_WebVI_40x40.ico",
+   "iframeResources": {
+      "en": {
+         "json": [
+            "resources/json/locales/en.json"
+         ]
+      }
+   },
+   "iframeSrc": "plugins/test-executor/main.html",
+   "orderWeight": 2,
+   "permission": "",
+   "resources": {
+      "en": {
+         "css": [
+            "plugins/test-executor/resources/css/testrunner_plugin.css"
+         ],
+         "json": [
+            "plugins/test-executor/resources/json/locales/en.json"
+         ]
+      }
+   },
+   "routeToken": "test-executor",
+   "titleToken": "test-executor.pluginTitle",
+   "waitUntilLaunched": false
+}

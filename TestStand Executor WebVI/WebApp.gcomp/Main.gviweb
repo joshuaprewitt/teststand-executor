@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="0D0C6148C4389E851AEF5FE3F786AC32" Timestamp="1D414E2A0B214D9" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="FD7520123131721A451757D08EB5BF4B" Timestamp="1D4152EF602B795" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
@@ -293,8 +293,8 @@
 					</Comment>
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 430 210" Id="2284" Pattern="True">
-					<Literal Bounds="225 150 95 15" DataType="String" Id="2273" Label="2281" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>labview===</p.Data>
+					<Literal Bounds="240 150 80 15" DataType="String" Id="2273" Label="2281" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>password</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 					<Literal Bounds="345 140 60 15" DataType="String" Id="2275" Label="2280" xmlns="http://www.ni.com/MocCommon">
@@ -302,10 +302,10 @@
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 					<Literal Bounds="25 105 180 15" DataType="String" Id="2277" Label="2279" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>http://demo.systemlink.io</p.Data>
+						<p.Data>http://server</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
-					<NodeLabel AttachedTo="2273" Bounds="225 133 52 14" Id="2281" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="2273" Bounds="240 133 52 14" Id="2281" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Password</p.Text>
 					</NodeLabel>
 					<NodeLabel AttachedTo="2275" Bounds="345 123 56 14" Id="2280" xmlns="http://www.ni.com/PlatformFramework">
@@ -317,7 +317,7 @@
 					<Wire Id="2550" Joints="N(2273:Out)|(320,155) N(2551:2284)|(426,155)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="2553" Joints="N(2275:Out)|(405,145) N(2554:2284)|(426,145)" xmlns="http://www.ni.com/PlatformFramework" />
 					<Wire Id="2556" Joints="N(2277:Out)|(205,110) N(2557:2284)|(426,110)" xmlns="http://www.ni.com/PlatformFramework" />
-					<Comment Bounds="25 15 300 65" Id="2576" xmlns="http://www.ni.com/MocCommon">
+					<Comment Bounds="25 15 300 68" Id="2576" xmlns="http://www.ni.com/MocCommon">
 						<p.Text>"Set Development boolean to True and \r\nchange the server, username, and password\r\nto match your web server.  Also, ensure that CORS\r\nis enabled on your web server before trying to \r\ninteractively run your application from within NXG."</p.Text>
 					</Comment>
 				</CaseStructure.Case>
@@ -555,7 +555,7 @@
 					<ArrayBehavior ElementType="String" IndexEditorWidth="42">
 						<p.DefaultElementValue>*</p.DefaultElementValue>
 					</ArrayBehavior>
-					<Literal Bounds="49.2 3.8 109 15" DataType="String" Id="2697">
+					<Literal Bounds="48.6 3.8 109 15" DataType="String" Id="2697">
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 				</ArrayLiteral>

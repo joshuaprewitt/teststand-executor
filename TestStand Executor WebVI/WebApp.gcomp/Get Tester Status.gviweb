@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="1DB3A883E02B9DC309CA93AC67A8FB15" Timestamp="1D4156877323523" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="C2A05E75688ED8AD5162F49CE2361CA4" Timestamp="1D424FD024DA5B1" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="5.3.1.49938" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
@@ -110,7 +110,7 @@
 					<Terminal DataType="Error" Direction="Output" Hotspot="40 35" Id="R3" xmlns="http://www.ni.com/PlatformFramework" />
 					<Terminal DataType="@75b7513f023446f3ab6451729c45c489" Direction="Output" Hotspot="25 0" Id="T1" xmlns="http://www.ni.com/PlatformFramework" />
 				</MethodCall>
-				<Wire Id="30" Joints="N(29:R1)|(265,150) h(50) B(1) N(32:L0)|(325,150) B(1) v(-45) N(31:L0)|(325,105) B(1) v(45) N(33:L0)|(325,195)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="30" Joints="N(29:R1)|(265,150) h(50) B(1) N(32:L0)|(325,150) B(1) v(-45) N(31:L0)|(325,105) B(1) v(45) B(5) N(33:L0)|(325,195) B(5) v(135) N(119:L0)|(325,330)" xmlns="http://www.ni.com/PlatformFramework" />
 				<MethodCall Bounds="325 100 40 40" DomainName="WebApp" Id="31" ResolveFailedHint="&quot;C:\\Users\\jprewitt\\Documents\\GitHub\\teststand-executor\\TestStand Executor WebVI\\WebApp.gcomp\\Get Prop.gviweb&quot;" Target="WebApp:Get\ Prop\.gviweb" xmlns="http://www.ni.com/MocCommon">
 					<p.MethodDeclaration>
 						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
@@ -229,6 +229,26 @@
 				<Wire Id="67" Joints="N(27:i0)|(6,220) h(204) v(60) N(66:L0)|(325,280)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="68" Joints="N(61:substring before match)|(265,290) N(66:L1)|(325,290)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="118" Joints="N(66:R2)|(365,300) h(10) v(-45) N(43:c5t0v)|(405,255)" xmlns="http://www.ni.com/PlatformFramework" />
+				<MethodCall Bounds="325 325 40 40" DomainName="WebApp" Id="119" ResolveFailedHint="&quot;C:\\Users\\jprewitt\\Documents\\GitHub\\teststand-executor\\TestStand Executor WebVI\\WebApp.gcomp\\Get Prop.gviweb&quot;" Target="WebApp:Get\ Prop\.gviweb" xmlns="http://www.ni.com/MocCommon">
+					<p.MethodDeclaration>
+						<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
+							<Parameter Id="L0" Desc="properties" />
+							<Parameter Id="L1" Desc="key" />
+							<Parameter Id="R0" Desc="value" />
+						</MethodDeclaration>
+					</p.MethodDeclaration>
+					<Terminal DataType="@9462cc4e20034a6fb4da6f6cbb4c2d13" Direction="Input" Id="L0" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
+					<Terminal DataType="String" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
+				</MethodCall>
+				<Literal Bounds="165 345 125 15" DataType="String" Id="122" Label="123" xmlns="http://www.ni.com/MocCommon">
+					<p.Data>nitmSerialNumber</p.Data>
+					<StringBehavior TextDisplayMode="Default" />
+				</Literal>
+				<NodeLabel AttachedTo="122" Bounds="165 327 30 15" Id="123" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>key</p.Text>
+				</NodeLabel>
+				<Wire Id="124" Joints="N(122:Out)|(290,350) h(5) v(-10) N(119:L1)|(325,340)" xmlns="http://www.ni.com/PlatformFramework" />
 				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="19" Terminals="17, 18" />
 				<LoopTunnel AutoIndex="True" Bounds="-5 137 13 10" Docking="Left" Id="20" Terminals="o0=80, i0=52" TunnelMode="0" />
 				<LoopTunnel AutoIndex="True" Bounds="470 202 13 10" Docking="Right" Id="21" Terminals="o0=83, i0=50" TunnelMode="0" />

@@ -2,11 +2,11 @@
 <JobList>
   <Job OutputType="WebApplication">
     <CurrentBuildId>
-      <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
       <BuildId>C:\Users\jprewitt\Documents\GitHub\teststand-executor-webvi\TestStand Executor\Builds\WebApp_Web Server</BuildId>
     </CurrentBuildId>
     <RootBuildId>
-      <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
       <BuildId>C:\Users\jprewitt\Documents\GitHub\teststand-executor-webvi\TestStand Executor\Builds\WebApp_Web Server</BuildId>
     </RootBuildId>
     <OutputPath>Builds\WebApp_Web Server</OutputPath>
@@ -14,15 +14,15 @@
     <State>Success</State>
     <LastTotalTime>00:00:00</LastTotalTime>
     <HasChild>False</HasChild>
-    <QualifiedName>:Web\ Server:Interactive:WebApp\.gcomp</QualifiedName>
+    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
   </Job>
   <Job OutputType="WebApplication">
     <CurrentBuildId>
-      <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
       <BuildId>C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Executor WebVI\Builds\WebApp_Web Server</BuildId>
     </CurrentBuildId>
     <RootBuildId>
-      <DistributionTypeIdentifier>WebApplication</DistributionTypeIdentifier>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
       <BuildId>C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Executor WebVI\Builds\WebApp_Web Server</BuildId>
     </RootBuildId>
     <OutputPath>Builds\WebApp_Web Server</OutputPath>
@@ -30,6 +30,6 @@
     <State>Success</State>
     <LastTotalTime>00:00:01</LastTotalTime>
     <HasChild>False</HasChild>
-    <QualifiedName>:Web\ Server:Interactive:WebApp\.gcomp</QualifiedName>
+    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
   </Job>
 </JobList>

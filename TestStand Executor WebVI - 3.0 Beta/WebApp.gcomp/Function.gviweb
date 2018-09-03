@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A78716476607E4AAFAF0F36967028ECA5CDD1179EFD59C7E4687C017FE33CB16CE99957387ACA2A5E75DB368F285B02F65E6ECC15591D2CB66E56CBEE93F48EE" Timestamp="1D43409CB3DE447" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.0.2499" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.2499" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.6" Version="6.2.0.6" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.2499" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.3" Version="6.2.0.3" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.2499" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.2499" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.2499" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.6" Version="6.2.0.6" />
+		<ApplicationVersionInfo Build="6.2.0.2499" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]40">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="5" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="6" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" MinHeight="[float]1" MinWidth="[float]1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]True" Height="[float]36" Id="7" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Function" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]36">
+						<FontSetting FontFamily="Verdana" FontSize="6" Id="8" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="40" Id="9" ListViewHeight="40" ListViewWidth="150" Width="40" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="0 35" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="25 0" />
+			<ConnectorPaneTerminal Hotspot="40 5" />
+			<ConnectorPaneTerminal Hotspot="40 15" />
+			<ConnectorPaneTerminal Hotspot="40 25" />
+			<ConnectorPaneTerminal Hotspot="40 35" />
+			<ConnectorPaneTerminal Hotspot="15 40" />
+			<ConnectorPaneTerminal Hotspot="25 40" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="10" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="11" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="12">
+			<ArrayLiteral Bounds="446 265 167 57" DataType="String[]" Id="16" Label="18" xmlns="http://www.ni.com/MocCommon">
+				<p.Data>
+					<Array Lengths="1" IsBinary="True" Compression="GZip">
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMEGZjAhLsafn5tkmJRdwAs7n6wygAAAA=</BinaryElements>
+					</Array>
+				</p.Data>
+				<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleRows="3">
+					<p.DefaultElementValue>""</p.DefaultElementValue>
+				</ArrayBehavior>
+				<Literal Bounds="49 21 104 15" DataType="String" Id="17">
+					<StringBehavior TextDisplayMode="Default" />
+				</Literal>
+			</ArrayLiteral>
+			<NodeLabel AttachedTo="16" Bounds="446 247 30 15" Id="18" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>Parameters</p.Text>
+			</NodeLabel>
+			<FlattenToJSON Bounds="655 280 40 40" Id="19" />
+			<Wire Id="20" Joints="N(16:Out)|(613,270) h(5) v(15) N(19:anything)|(655,285)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="725 280 40 15" DataItem="21" Id="24" Label="25" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="String" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="24" Bounds="770 280 65 14" Id="25" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>JSON string</p.Text>
+			</NodeLabel>
+			<Wire Id="26" Joints="N(19:JSON string)|(695,285) N(24:Value)|(728,285)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]768" Id="15" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]120" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="22" IsReadOnly="[bool]True" Label="[UIModel]27" Left="[float]244" MinHeight="[float]24" TabIndex="[int]0" Text="{DataItemBinding Id=21}" Top="[float]180" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]280" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			<HtmlLabel Height="[float]16" Id="27" LabelOwner="[UIModel]22" Left="[float]244" Text="[string]JSON string" Top="[float]160" Width="[float]69" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		</HtmlFrontPanel>
+		<DataItem AdaptToDiagramType="True" DataType="String" Id="21" Name="JSON string" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>

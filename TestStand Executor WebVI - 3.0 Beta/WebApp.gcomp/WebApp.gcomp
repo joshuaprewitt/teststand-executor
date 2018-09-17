@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="A5B9B0C14B235B302CFE0E7E7439B4BDAF7B24BCAAF85641930614A23B70FD7C0F3292AF692716FE147C70C8C45B45AA0BE7941EBADC4DBCF60247ED90EBC2C1" Timestamp="1D443B9BE87A77E" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="9C91E539A1859B60A965749C7FEE9E8AFF4D7C4E85777FC1EBCC4ABF7E9F3E63BFDD041A3C05CBB300DCA87A7677E48C3C16AB3D3B178BED4C76332E33BE03C2" Timestamp="1D44E20256316F8" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.2.0.51927" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.51927" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.51927" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
-		<ApplicationVersionInfo Build="6.2.0.51927" Name="LabVIEW NXG" Version="3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.2.0.52432" Name="LabVIEW NXG" Version="3.0.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" UserVersion="0.0.0.5" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Id="1" RootNamespaceId="14" UserVersion="0.0.0.8" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />

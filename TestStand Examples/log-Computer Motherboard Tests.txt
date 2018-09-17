@@ -1,0 +1,5 @@
+New solution created: New Solution, 9/15/2018 11:50:09 AM
+Solution saved to: C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Computer Motherboard Tests.pbs, 9/15/2018 1:06:45 PM
+Solution saved to: C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Computer Motherboard Tests.pbs, 9/15/2018 1:07:36 PM
+Solution saved to: C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Computer Motherboard Tests.pbs, 9/15/2018 1:07:53 PM
+Solution saved to: C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Computer Motherboard Tests.pbs, 9/15/2018 1:08:00 PM

@@ -1,0 +1,160 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>Computer Motherboard Tests</Name>
+    <SourceItems>
+        <SourceItem z:Id="i2">
+            <PluginConfigurationOptions />
+            <RelativePath>Computer Motherboard Tests\computer.c</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i3">
+            <PluginConfigurationOptions />
+            <RelativePath>Computer Motherboard Tests\computer.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i4">
+            <PluginConfigurationOptions />
+            <RelativePath>Computer Motherboard Tests\computer.prj</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i5">
+            <PluginConfigurationOptions />
+            <RelativePath>Computer Motherboard Tests\Computer Motherboard Tests.seq</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i3" />
+                <SourceItem z:Ref="i2" />
+                <SourceItem z:Ref="i4" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+    </SourceItems>
+    <InputSourceItems>
+        <SourceItem z:Ref="i5" />
+    </InputSourceItems>
+    <Distributions>
+        <Distribution z:Id="i6" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i7" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Computer Motherboard Tests</DestinationRelativePath>
+                    <Name>Computer Motherboard Tests</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i8" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Computer Motherboard Tests\Computer Motherboard Tests.seq</DestinationRelativePath>
+                    <Name>Computer Motherboard Tests.seq</Name>
+                    <SourceItem z:Ref="i5" />
+                    <PluginConfigurationOptions />
+                </DistributionItem>
+                <DistributionItem z:Id="i9" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Computer Motherboard Tests\computer.dll</DestinationRelativePath>
+                    <Name>computer.dll</Name>
+                    <SourceItem z:Ref="i3" />
+                    <PluginConfigurationOptions />
+                </DistributionItem>
+                <DistributionItem z:Id="i10" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Computer Motherboard Tests\computer.c</DestinationRelativePath>
+                    <Name>computer.c</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                </DistributionItem>
+                <DistributionItem z:Id="i11" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Computer Motherboard Tests\computer.prj</DestinationRelativePath>
+                    <Name>computer.prj</Name>
+                    <SourceItem z:Ref="i4" />
+                    <PluginConfigurationOptions />
+                </DistributionItem>
+                <DistributionItem z:Id="i12" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Computer Motherboard Tests</DestinationRelativePath>
+                    <Name>Computer Motherboard Tests</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+            </DistributionItems>
+            <Name>Computer Motherboard Tests</Name>
+            <OutputDirectory>NiPackages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_x64</Architecture>
+            <Breaks />
+            <CompanyName>NI</CompanyName>
+            <Conflicts />
+            <Depends />
+            <Description>TestStand Computer Motherboard Test Example</Description>
+            <DisplayName>Computer Motherboard Tests</DisplayName>
+            <DisplayVersion>2.0.0</DisplayVersion>
+            <Enhances />
+            <FileName>ni-computermotherboardtests_2.0.0.0_windows_x64.nipkg</FileName>
+            <MaintainerEmail>support@ni.com</MaintainerEmail>
+            <MaintainerName>Josh Prewitt</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>ni-computermotherboardtests</PackageName>
+            <PackageRelationships />
+            <PreDepends />
+            <ProductName>Computer Motherboard Tests</ProductName>
+            <Provides />
+            <Recommends />
+            <Replaces />
+            <ShortDescription>TestStand Computer Motherboard Test Example</ShortDescription>
+            <Suggests />
+            <Supplements />
+            <Version>2.0.0.0</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i13">
+            <Distributions>
+                <Distribution z:Ref="i6" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions>
+        <ConfigurationOption z:Id="i14">
+            <Definition z:Id="i15">
+                <Description i:nil="true" />
+                <Name>TestStand options</Name>
+            </Definition>
+            <Value z:Id="i16" i:type="DialogConfigurationOptionValue">
+                <Values>
+                    <ConfigurationOptionValue z:Id="i17" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i18" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i19" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i20" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i21" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i22" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i23" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i24" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i25" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i26" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i27" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i28" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i29" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i30" i:type="PathConfigurationOptionValue">
+                        <RelativePath />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i31" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i32" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i33" i:type="StringConfigurationOptionValue">
+                        <Value>[BootVolume]</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i34" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                </Values>
+            </Value>
+        </ConfigurationOption>
+    </PluginConfigurationOptions>
+</Solution>

@@ -70,6 +70,11 @@
                     <Name>Computer Motherboard Tests</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
+                <DistributionItem z:Id="i13" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Computer Motherboard Tests</DestinationRelativePath>
+                    <Name>Computer Motherboard Tests</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
             </DistributionItems>
             <Name>Computer Motherboard Tests</Name>
             <OutputDirectory>NiPackages</OutputDirectory>
@@ -103,7 +108,7 @@
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i13">
+        <DistributionGroup z:Id="i14">
             <Distributions>
                 <Distribution z:Ref="i6" />
             </Distributions>
@@ -114,43 +119,43 @@
     </DistributionGroups>
     <TestStandMode>true</TestStandMode>
     <PluginConfigurationOptions>
-        <ConfigurationOption z:Id="i14">
-            <Definition z:Id="i15">
+        <ConfigurationOption z:Id="i15">
+            <Definition z:Id="i16">
                 <Description i:nil="true" />
                 <Name>TestStand options</Name>
             </Definition>
-            <Value z:Id="i16" i:type="DialogConfigurationOptionValue">
+            <Value z:Id="i17" i:type="DialogConfigurationOptionValue">
                 <Values>
-                    <ConfigurationOptionValue z:Id="i17" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i18" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i19" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i20" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i20" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i21" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i21" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i22" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i23" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i24" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i25" i:type="BooleanConfigurationOptionValue">
-                        <Value>true</Value>
-                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i25" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i26" i:type="BooleanConfigurationOptionValue">
                         <Value>true</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i27" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i28" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i29" i:type="BooleanConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i27" i:type="BooleanConfigurationOptionValue">
                         <Value>true</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i30" i:type="PathConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i28" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i29" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i30" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i31" i:type="PathConfigurationOptionValue">
                         <RelativePath />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i31" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i32" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i33" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i33" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i34" i:type="StringConfigurationOptionValue">
                         <Value>[BootVolume]</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i34" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i35" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
                 </Values>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="6C4D4A0408F620C4B0C783A4BBEF7E31BA6975B8B9B5586F838EC45EAF82DE7AB98EF728ADCED1BC6EE9D1179D50663FB4C669393C52C210BD60CBC8D81D6278" Timestamp="1D46A388E96EBE5" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="DC77C43E7B79CC8DAB991C524F4E0F276A9E45EB90A96E3E9C7720EAA8EB9BF241D5DF93D3AE8F13BDEE3211283D8780DD4500439A1C98867759FDDC2E121451" Timestamp="1D46A3A75563FA2" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.2.1.50272" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -561,20 +561,6 @@
 				</MethodCall>
 				<Wire Id="4431" Joints="N(4430:R0)|(141,40) N(928:Value)|(169,40)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="4432" Joints="N(2622:i0)|(4,40) N(4430:L0)|(101,40)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="166 15 40 15" DataItem="4991" Id="4994" Label="4995" xmlns="http://www.ni.com/MocCommon">
-					<Terminal DataType="Int32" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-				</DataAccessor>
-				<NodeLabel AttachedTo="4994" Bounds="211 15 74 14" Id="4995" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>loop iteration</p.Text>
-				</NodeLabel>
-				<Wire Id="4996" Joints="N(2623:Output)|(141,20) N(4994:Value)|(169,20)" xmlns="http://www.ni.com/PlatformFramework" />
-				<DataAccessor Bounds="206 55 40 15" DataItem="5024" Id="5033" Label="5034" xmlns="http://www.ni.com/MocCommon">
-					<Terminal DataType="Error" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
-				</DataAccessor>
-				<NodeLabel AttachedTo="5033" Bounds="251 55 50 14" Id="5034" xmlns="http://www.ni.com/PlatformFramework">
-					<p.Text>error out</p.Text>
-				</NodeLabel>
-				<Wire Id="5035" Joints="N(4430:R3)|(141,70) h(60) v(-10) N(5033:Value)|(209,60)" xmlns="http://www.ni.com/PlatformFramework" />
 				<ClusterLiteral Bounds="89 66 12 9" DataType="Error" Id="5036" Label="5043" p5:ControlDefinitionChecksum="e3nj023iwYRzhBkV8z61WFGSCt7pzzv3hwIJFanixR4=" xmlns:p5="http://www.ni.com/PanelCommon" xmlns="http://www.ni.com/MocCommon">
 					<p.Data>
 						<Cluster>
@@ -701,17 +687,6 @@
 			<HtmlLabel Height="[float]16" Id="4560" LabelOwner="[UIModel]4559" Left="[float]71" Text="[string]Test" Top="[float]2" Width="[float]28" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlStringControl AcceptsReturn="[bool]True" BaseName="[string]String" Height="[float]24" HorizontalScrollBarVisibility="[ScrollBarVisibility]Hidden" Id="4956" IsReadOnly="[bool]False" Label="[UIModel]4990" Left="[float]71" MinHeight="[float]24" TabIndex="[int]6" Text="{DataItemBinding Id=4955}" Top="[float]152" VerticalScrollBarVisibility="[ScrollBarVisibility]Auto" Width="[float]296" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Height="[float]16" Id="4990" LabelOwner="[UIModel]4956" Left="[float]71" Text="[string]Email" Top="[float]132" Width="[float]35" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlNumericText BaseName="[string]Numeric" Height="[float]24" Id="4992" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]4997" Left="[float]932" MinHeight="[float]24" RadixBase="[RadixBase]Decimal" TabIndex="[int]7" Top="[float]692" Value="{DataItemBinding Id=4991}" ValueFormatter="[string]Decimal, Uppercase, Signed" ValueType="[Type]Int32" Width="[float]72" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlLabel Height="[float]16" Id="4997" LabelOwner="[UIModel]4992" Left="[float]932" Text="[string]loop iteration" Top="[float]672" Width="[float]79" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlCluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]Error" Height="[float]176" Id="5025" Label="[UIModel]5045" Left="[float]71" MinHeight="[float]24" MinWidth="[float]24" TabIndex="[int]8" Top="[float]708" Value="{DataItemBinding Id=5024}" Width="[float]176" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
-				<HtmlBooleanLED ContentVisibility="[Visibility]Collapsed" Height="[float]24" Id="5026" IsReadOnly="[bool]True" Label="[UIModel]5027" Left="[float]8" MinHeight="[float]16" MinWidth="[float]16" Shape="[LEDShape]Round" Top="[float]24" TrueBackground="[SMSolidColorBrush]#ffff0000" Value="{ClusterBinding FieldName=status}" Width="[float]24" />
-				<HtmlLabel Height="[float]16" Id="5027" LabelOwner="[UIModel]5026" Left="[float]8" Text="[string]status" Top="[float]4" Width="[float]38" />
-				<HtmlNumericText Height="[float]24" Id="5028" InteractionMode="[NumericTextBoxInteractionModes]ReadOnly" Interval="[int]1" IsReadOnly="[bool]True" Label="[UIModel]5029" Left="[float]64" MinHeight="[float]16" MinWidth="[float]36" RadixBase="[RadixBase]Decimal" RadixVisibility="[SMVisibility]Visible" Top="[float]24" Value="{ClusterBinding FieldName=code}" ValueFormatter="[string]Decimal, Uppercase, Signed" ValueType="[Type]Int32" Width="[float]104" />
-				<HtmlLabel Height="[float]16" Id="5029" LabelOwner="[UIModel]5028" Left="[float]64" Text="[string]code" Top="[float]4" Width="[float]33" />
-				<HtmlStringControl AcceptsReturn="[bool]True" Height="[float]96" Id="5030" IsReadOnly="[bool]True" Label="[UIModel]5031" Left="[float]8" MinHeight="[float]20" MinWidth="[float]20" Text="{ClusterBinding FieldName=source}" Top="[float]72" Width="[float]160" WordWrap="[bool]True" />
-				<HtmlLabel Height="[float]16" Id="5031" LabelOwner="[UIModel]5030" Left="[float]8" Text="[string]source" Top="[float]52" Width="[float]42" />
-			</HtmlCluster>
-			<HtmlLabel Height="[float]16" Id="5045" LabelOwner="[UIModel]5025" Left="[float]71" Text="[string]error out" Top="[float]688" Width="[float]54" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 		</HtmlFrontPanel>
 		<DataItem DataType="@f6db632612fd49f4880c12e8dc0f2ea6" Id="927" Name="Data Grid" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>null</p.DefaultValue>
@@ -739,21 +714,6 @@
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="4955" Name="Email" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>""</p.DefaultValue>
-		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="4991" Name="loop iteration" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>0</p.DefaultValue>
-		</DataItem>
-		<DataItem DataType="Error" Id="5024" Name="error out" xmlns="http://www.ni.com/MocCommon">
-			<p.DefaultValue>
-				<Cluster>
-					<Field1>False</Field1>
-					<Field2>0</Field2>
-					<Field3>""</Field3>
-				</Cluster>
-			</p.DefaultValue>
-			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="NI::G Core::Error::Error.gtype" />
-			</p.TypeDefinitionTargets>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">

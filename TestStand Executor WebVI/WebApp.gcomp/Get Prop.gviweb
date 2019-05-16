@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="26D5A98572EA9AC30D1FA28148C7F573" Timestamp="1D3BB4CAEA71A40" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="03315CD9F50996617C5D39FA6F981EDD" Timestamp="1D417F075826661" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.2.0.1624" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.1.0.3" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.1624" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.1624" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.2" Version="6.2.0.2" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.1624" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.1624" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.2.0.1624" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.3" Version="6.2.0.3" />
+		<ApplicationVersionInfo Build="6.2.0.1624" Name="LabVIEW NXG" Version="3.0.0" />
+	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
@@ -66,7 +75,7 @@
 						<LoopIteration Bounds="25 115 15 15" Id="25" />
 						<PropertyNode Bounds="25 15 64 50" HasErrorTerminals="False" Id="26" InstanceDataType="@98bb0e101226457f897cea65deed25f5" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
 							<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-								<TypeDefinitionTarget TargetName="NI:Skyline:TagHTTP:TagProperty\.gtype" />
+								<TypeDefinitionTarget TargetName="NI::Skyline::TagHTTP::TagProperty.gtype" />
 							</p.TypeDefinitionTargets>
 							<PropertyItemTerminal DataType="String" Hotspot="64 15" Id="c0t0v" Path="key" PathElementMemberKinds="Field" Usage="Optional" />
 							<PropertyItemTerminal DataType="String" Hotspot="64 30" Id="c1t0v" Path="value" PathElementMemberKinds="Field" Usage="Optional" />
@@ -75,7 +84,6 @@
 						<Wire Id="28" Joints="N(26:c0t0v)|(89,30) h(11) v(25) N(27:x)|(115,55)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="29" Joints="N(21:i0)|(4,70) N(27:y)|(115,70)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="30" Joints="N(27:x = y?)|(145,65) h(15) B(1) v(-5) N(133:s)|(180,60) B(1) v(65) N(37:c1t0v)|(187,130)" xmlns="http://www.ni.com/PlatformFramework" />
-						<Wire Id="32" Joints="N(20:i0)|(4,20) N(26:instance in)|(25,20)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="35" Joints="N(131:i0)|(4,100) h(96) v(10) N(435:x)|(115,110)" xmlns="http://www.ni.com/PlatformFramework" />
 						<LogicalOr Bounds="185 115 25 20" Id="37" Terminals="o=39, c0t0v=38, c1t0v=30" />
 						<Wire Id="38" Joints="N(435:x = y?)|(145,120) N(37:c0t0v)|(187,120)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -95,7 +103,8 @@
 						</NodeLabel>
 						<Wire Id="138" Joints="N(136:Out)|(150,90) h(20) v(-15) N(133:f)|(180,75)" xmlns="http://www.ni.com/PlatformFramework" />
 						<IsEqual Bounds="115 105 30 30" Id="435" />
-						<LoopTunnel AutoIndex="True" Bounds="-4 20 13 10" Docking="Left" Id="20" Terminals="o0=420, i0=32" TunnelMode="0" />
+						<Wire Id="436" Joints="N(20:i0)|(4,20) N(26:instance in)|(25,20)" xmlns="http://www.ni.com/PlatformFramework" />
+						<LoopTunnel AutoIndex="True" Bounds="-4 20 13 10" Docking="Left" Id="20" Terminals="o0=420, i0=436" TunnelMode="0" />
 						<LoopTunnel Bounds="-4 70 13 10" Docking="Left" Id="21" Terminals="o0=423, i0=29" />
 						<LoopTunnel Bounds="256 60 13 10" Docking="Right" Id="23" Terminals="o0=426, i0=68" />
 						<LoopTunnel Bounds="-4 100 13 10" Docking="Left" Id="131" Terminals="o0=429, i0=35" />
@@ -132,7 +141,7 @@
 				</Array>
 			</p.DefaultValue>
 			<p.TypeDefinitionTargets xmlns="http://www.ni.com/PanelCommon">
-				<TypeDefinitionTarget TargetName="NI:Skyline:TagHTTP:TagProperty\.gtype" />
+				<TypeDefinitionTarget TargetName="NI::Skyline::TagHTTP::TagProperty.gtype" />
 			</p.TypeDefinitionTargets>
 		</DataItem>
 	</VirtualInstrument>
@@ -143,7 +152,7 @@
 		<p.TypeReference TypeId="98bb0e101226457f897cea65deed25f5">
 			<Attributed AttributedType="@2afd7356839f46b0914249fb8b0d7c9b">
 				<AttributeValues>
-					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI:Skyline:TagHTTP" />
+					<AttributeValue Name="NationalInstruments.NamespaceName" Value="[QualifiedName]NI::Skyline::TagHTTP" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>

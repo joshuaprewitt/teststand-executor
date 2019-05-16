@@ -1,0 +1,13 @@
+Architecture: windows_x64
+Built-Using: nipkg
+Depends: ni-labview-2019-runtime-engine (>=19.0.0.49152-0+f0), ni-teststand-2019-runtime (>=19.0.0.49154-0+f2)
+Description: TestStand example that publishes TDMS files
+Maintainer: NI <email@mycompany.com>
+Package: ni-power-test
+Section: Application Software
+UserVisible: yes
+Version: 19.0.0.2
+XB-DisplayName: Power Test
+XB-Plugin: file
+XB-StoreProduct: no
+XB-VisibleForRuntimeDeployment: no

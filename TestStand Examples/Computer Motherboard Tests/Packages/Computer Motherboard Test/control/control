@@ -1,0 +1,13 @@
+Architecture: windows_x64
+Built-Using: nipkg
+Depends: ni-teststand-2019-runtime (>=19.0.0.49154-0+f2)
+Description: TestStand computer motherboard test example
+Maintainer: NI <email@mycompany.com>
+Package: ni-computermotherboardtests
+Section: Application Software
+UserVisible: yes
+Version: 19.0.0.0
+XB-DisplayName: Computer Motherboard Test
+XB-Plugin: file
+XB-StoreProduct: no
+XB-VisibleForRuntimeDeployment: no

@@ -1,0 +1,79 @@
+[1:09:38.68 PM] Solution log file opened: C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Power Test\log-Power Test.txt
+[1:09:38.68 PM] System summary
+   Date               5/16/2019 1:09:38 PM
+   NIPB version       19.0.1.49152
+   NIPB bitness       64-bit
+   NIPM version       19.0.0.49152
+   Operating System   Windows 10 64-bit
+[1:09:53.05 PM] ======= Build Packages: Started =======
+[1:09:53.05 PM] Power Test: Discover started.
+[1:10:07.41 PM] Power Test: Discover successful
+[1:10:07.41 PM] Power Test: Analyze started.
+[1:10:07.41 PM] Power Test: Analyze successful.
+[1:10:07.42 PM] Power Test: Clean started.
+[1:10:07.43 PM] Power Test: Clean successful.
+[1:10:07.43 PM] Power Test: Build started.
+[1:10:07.93 PM] Initializing LabVIEW distribution interface...
+[1:10:07.97 PM] Using LabVIEW deployment support library in: 'C:\Program Files\National Instruments\Package Builder\NIPBSupport\NIPBSupport2017.lvlibp'
+[1:10:15.51 PM] LabVIEW distribution interface initialization time: 7.57 s
+   Initialize NIPB Support:    7.54 s
+[1:10:21.01 PM] Processing VIs...
+[1:10:21.26 PM] Compiling distribution VIs. This operation can take up to five minutes, during which aborting is not supported. A new set of distribution VIs is being created for your current version of LabVIEW, for more information refer to the National Instruments Web Site at ni.com/info and enter Info Code 'TSDULabVIEWPerformance'. 
+[1:10:21.74 PM] Info 19440: The specified TestStand components were not migrated to the current version of TestStand.  Verify that required components are selected in the Drivers and Components Dialog.
+   Error 8 occurred at Create Folder in NIPBSupport2017.lvlibp:Create Directory Recursive - TSDU.vi->NIPBSupport2017.lvlibp:Copy Files - TestStand.vi->NIPBSupport2017.lvlibp:Create New Distribution LLBs - TestStand.vi->NIPBSupport2017.lvlibp:Get LLB Path For LV Version - TestStand.vi->NIPBSupport2017.lvlibp:Get LLB Path For LV Application - TestStand.vi->NIPBSupport2017.lvlibp:Dynamically Call Method in LLB - TestStand.vi:5110008->NIPBSupport2017.lvlibp:Dynamically Call Get Paths of LV Projects In Memory - TestStand.vi->NIPBSupport2017.lvlibp:Insure Projects are Not in Memory - TestStand.vi->NIPBSupport2017.lvlibp:Package VIs - TestStand.vi->NIPBSupport2017.lvlibp:Call TSDU Build VI Distribution.vi->NIPBSupport2017.lvlibp:StageDistribution_Core.vi->NIPBSupport2017.lvlibp:StageDistribution.vi->NIPBSupport2017.lvlibp:StageDistribution.vi.ProxyCaller
+
+Possible reason(s):
+
+LabVIEW: (Hex 0x8) File permission error. You do not have the correct permissions for the file.
+=========================
+DMA hardware error detected.
+
+C:\Program Files\National Instruments\Package Builder\NIPBSupport\DistVIs\19.0
+[1:10:21.74 PM] Warning 19219: The distribution VIs could not be rebuilt. The deployment will continue with a cached copy of the distribution VIs, which negatively impacts deployment speed but does not affect the build output.  See the error message below for additional details.
+[1:10:21.74 PM] Loading distribution VIs.
+"Get Paths of LV Projects In Memory - TestStand"
+[1:10:21.92 PM] Calling distribution VIs
+"Get Paths of LV Projects In Memory - TestStand"
+[1:10:22.24 PM] Loading distribution VIs.
+"Validate LV Projects Buildable - TestStand"
+[1:10:23.19 PM] Calling distribution VIs
+"Validate LV Projects Buildable - TestStand"
+[1:10:24.04 PM] Building VI Image...
+[1:10:24.07 PM] Loading distribution VIs.
+"Build VI Distribution 2010 - TestStand"
+[1:10:51.55 PM] Calling distribution VIs
+"Build VI Distribution 2010 - TestStand"
+[1:10:51.61 PM] Creating temporary project for deployment
+[1:10:53.81 PM] Creating source distribution for deployment
+[1:10:54.48 PM] Processing Dflt Data Dir.vi...
+[1:10:54.48 PM] Processing Get System Name.vi...
+[1:10:54.51 PM] Processing Generate File Name.vi...
+[1:10:54.51 PM] Processing Power Test.vi...
+[1:10:54.52 PM] Compiling...
+[1:10:54.56 PM] Saving Dflt Data Dir.vi...
+[1:10:54.57 PM] Saving Get System Name.vi...
+[1:10:54.58 PM] Saving Generate File Name.vi...
+[1:10:54.60 PM] Saving Power Test.vi...
+[1:10:54.64 PM] The build is complete. You can locate the build at
+C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Power Test\ProcessingStage\Documents\National Instruments\TestStand 2019 (64-bit)\Power Test\VIs for Power Test\SupportVIs.
+[1:10:55.13 PM] Finished building current project
+[1:10:55.26 PM] Built VI Image
+[1:10:56.06 PM] Loading distribution VIs.
+"Update Paths In Projects - TestStand"
+[1:11:00.92 PM] Calling distribution VIs
+"Update Paths In Projects - TestStand"
+[1:11:02.58 PM] Finished processing VIs
+[1:11:04.27 PM] Power Test: Build successful.
+[1:11:04.27 PM] ======= Build Packages: Summary =======
+[1:11:04.28 PM] NI applications state:
+   TestStand version:   2019 (19.0.0.170) 64-bit
+   LabVIEW version:     2019 (19.0) 64-bit
+[1:11:04.27 PM] 1) Package 'Power Test' Build detailed summary
+   Power Test         Succeeded
+   Output directory   C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Power Test\Packages
+   Filename           ni-power-test_19.0.0.2_windows_x64.nipkg
+   Stage directory    C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Power Test\Packages\Power Test
+   Package version    19.0.0.2
+   Display version    19.0.0
+   Architecture       windows_x64
+[1:11:04.28 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 01:11.22) =======

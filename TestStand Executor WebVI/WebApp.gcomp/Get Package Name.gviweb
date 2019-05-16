@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="B6396FD9FE0C60BE7502F1E251F30E977CDC701CEB5C36FBCA090D059AA2F939B75AB4C68CCDF840FA3F76698DDEC51330D9B07EA2CA69638C4BE3469502A1B8" Timestamp="1D44D49F2B232D1" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="E3DFC16FE95F0315B3E1FE11B6E3FE1DDEF3776F7FE2E2359AF7F19880341F2F03A95A423FA6B7651E638DC47DAC7C6027F80DEB74B4673539211F7F6863BE7D" Timestamp="1D50C2272D6FC8A" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.52432" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.2.0.52432" Name="LabVIEW NXG" Version="3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -42,14 +42,14 @@
 				<p.Data>
 					<Array Lengths="3,2" IsBinary="True" Compression="GZip">
 						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMJiBmAxFyzvm5BaUlqUUKvvklGalFSfmJRSkKIanFJcV6xamFbMxANdJ5mbrJUGW5CFUlIEXcAO9vpEBgAAAA</BinaryElements>
-						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMJiBmAxF8AfnlqUUKIanFJXrFqYVszEAxkbxM3QKQsG4JUFi3pFi3IDudGwB7REFLSQAAAA==</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMJiBmAxF8AfnlqUUKIanFJXrFqYVszEAx3rxM3QKQsG4JUJgbAKsRvg1CAAAA</BinaryElements>
 						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMJiBmAxHsafn5esWphWzMQA4zkMMNACV9u/AxAAAA</BinaryElements>
 					</Array>
 				</p.Data>
 				<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleColumns="2" VisibleRows="3">
 					<p.DefaultElementValue>""</p.DefaultElementValue>
 				</ArrayBehavior>
-				<Literal Bounds="311 4 260 23" DataType="String" Id="19">
+				<Literal Bounds="311 29 260 23" DataType="String" Id="19">
 					<StringBehavior TextDisplayMode="Default" />
 				</Literal>
 			</ArrayLiteral>

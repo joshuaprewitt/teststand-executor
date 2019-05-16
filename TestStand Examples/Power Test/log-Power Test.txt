@@ -77,3 +77,5 @@ C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Power T
    Display version    19.0.0
    Architecture       windows_x64
 [1:11:04.28 PM] ======= Build Packages: 1 Succeeded, 0 Failed, 0 Canceled (elapsed time 01:11.22) =======
+[2:45:29.05 PM] Solution saved: C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Power Test\Power Test.pbs
+[2:45:33.06 PM] Solution saved: C:\Users\jprewitt\Documents\GitHub\teststand-executor\TestStand Examples\Power Test\Power Test.pbs

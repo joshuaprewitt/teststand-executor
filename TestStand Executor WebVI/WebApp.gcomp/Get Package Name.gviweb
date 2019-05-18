@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E3DFC16FE95F0315B3E1FE11B6E3FE1DDEF3776F7FE2E2359AF7F19880341F2F03A95A423FA6B7651E638DC47DAC7C6027F80DEB74B4673539211F7F6863BE7D" Timestamp="1D50C2272D6FC8A" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="8E0D9C6B4CF08FABD462FFC5155D95579E86D2A2B4A6BF375D6C6B0B0CDE0388772A1D1A9718672FE0DFE3DD4D4043FCE04DDDCBF1EFC2F90837ABFFF2927BD6" Timestamp="1D50CF3F6A32538" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -43,7 +43,7 @@
 					<Array Lengths="3,2" IsBinary="True" Compression="GZip">
 						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMJiBmAxFyzvm5BaUlqUUKvvklGalFSfmJRSkKIanFJcV6xamFbMxANdJ5mbrJUGW5CFUlIEXcAO9vpEBgAAAA</BinaryElements>
 						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMJiBmAxF8AfnlqUUKIanFJXrFqYVszEAx3rxM3QKQsG4JUJgbAKsRvg1CAAAA</BinaryElements>
-						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMJiBmAxHsafn5esWphWzMQA4zkMMNACV9u/AxAAAA</BinaryElements>
+						<BinaryElements>H4sIAAAAAAAEAGNgZGBg+A8EIBoEBEAMJiBmAxFivol5pWmJySWlRZl56QohqcUlesWphWzMQDnFXJhcCUhStwQoqZuSmpuvm5GamJKTWlzMDQD5DIfCXgAAAA==</BinaryElements>
 					</Array>
 				</p.Data>
 				<ArrayBehavior ElementType="String" IndexEditorWidth="42" VisibleColumns="2" VisibleRows="3">

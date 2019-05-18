@@ -28,7 +28,7 @@
     <OutputPath>Builds\WebApp_Web Server</OutputPath>
     <BuildName>WebApp</BuildName>
     <State>Success</State>
-    <LastTotalTime>00:00:01</LastTotalTime>
+    <LastTotalTime>00:00:02</LastTotalTime>
     <HasChild>False</HasChild>
     <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
   </Job>

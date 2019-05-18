@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="AB51A4970115D58F714B2801E2856F390B18C05BB35A2F251E445130D4326BF92080AD500B12C8213E1ABF350313B53544968CD264D111F77B3CE293250EB970" Timestamp="1D50C29487E27A2" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="F2855AF037B5EFFA83E826D7EEDB3827FF150F8DF1A148290E9527E8FA43C36D95F9EBD9986AE08CB48519F95D53A88176FF3B5B20D31E2B60ACF8E0F7E57A01" Timestamp="1D50D29FE3CC895" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -70,7 +70,7 @@
 							<Terminal DataType="UInt32" Direction="Input" Hotspot="15 0" Id="T0" xmlns="http://www.ni.com/PlatformFramework" />
 							<Terminal DataType="Error" Direction="Output" Hotspot="40 45" Id="R4" xmlns="http://www.ni.com/PlatformFramework" />
 						</MethodCall>
-						<CaseStructure Bounds="480 210 760 160" DataType="String" Default="2798" Id="2797" Selected="2799" UserSelectorBounds="253 0 254 17">
+						<CaseStructure Bounds="480 210 760 160" DataType="String" Default="2798" Id="2797" Selected="dd2c487c3194fbc8bfad26c1c315127" UserSelectorBounds="253 0 254 17">
 							<CaseStructure.Case Bounds="5 5 750 150" Id="2798" Pattern="Default">
 								<Literal Bounds="685 40 40 15" DataType="String" Id="2925" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>[]</p.Data>
@@ -123,6 +123,51 @@
 								<Wire Id="2921" Joints="N(2025:2008)|(619,45) N(2922:2799)|(746,45)" xmlns="http://www.ni.com/PlatformFramework" />
 								<Wire Id="2012" Joints="N(2004:Value)|(315,45) N(2011:2008)|(331,45)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
+							<CaseStructure.Case Bounds="5 5 750 150" Id="dd2c487c3194fbc8bfad26c1c315127" Pattern="&quot;Manufacturing Test.seq&quot;">
+								<DataAccessor Bounds="275 40 40 15" DataItem="d6ab33beb484481967e137e26cff74e" Id="b1f7d7ed7b8b4c6d8de08e6542bd85b1" Label="ce150b09dd4045a89a34ce173f1d1962" xmlns="http://www.ni.com/MocCommon">
+									<Terminal DataType="@d8e8325befda46d6a2150589ed6b80fe" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+								</DataAccessor>
+								<CaseStructure Bounds="335 20 280 110" DataType="@d8e8325befda46d6a2150589ed6b80fe" Default="fb0b461f62c74d768b361933e9bad964" Id="97aa596020034734a862ad61563d30b7" Label="6231a08a9efa4dab85f7c96b394b6c07" Selected="cc9ea7de264d429f877eadd962eeba75" UserSelectorBounds="67 0 146 17">
+									<CaseStructure.Case Bounds="5 5 270 100" Id="fb0b461f62c74d768b361933e9bad964" Pattern="&quot;None&quot;, Default">
+										<Literal Bounds="205 15 40 15" DataType="String" Id="45886597df7d4255bb780e738a94c29b" xmlns="http://www.ni.com/MocCommon">
+											<p.Data>""</p.Data>
+											<StringBehavior TextDisplayMode="Default" />
+										</Literal>
+										<Wire Id="df80c03a56624e519dd6a07e68245ac8" Joints="N(45886597df7d4255bb780e738a94c29b:Out)|(245,20) N(74d10054884945cfb4a6eed242ad272a:fb0b461f62c74d768b361933e9bad964)|(266,20)" xmlns="http://www.ni.com/PlatformFramework" />
+									</CaseStructure.Case>
+									<CaseStructure.Case Bounds="5 5 270 100" Id="fb8108352cd74c1fb8a7217c2e8eaca3" Pattern="&quot;Noise&quot;">
+										<Literal Bounds="0 15 180 15" DataType="String" Id="2939884bf534443db4c1afb484aaedc5" xmlns="http://www.ni.com/MocCommon">
+											<p.Data>FailNoiseToleranceTest=True</p.Data>
+											<StringBehavior TextDisplayMode="Default" />
+										</Literal>
+										<Wire Id="2c7be05032e54fdfae3f4d24d4e1d344" Joints="N(2939884bf534443db4c1afb484aaedc5:Out)|(180,20) N(74d10054884945cfb4a6eed242ad272a:fb8108352cd74c1fb8a7217c2e8eaca3)|(266,20)" xmlns="http://www.ni.com/PlatformFramework" />
+									</CaseStructure.Case>
+									<CaseStructure.Case Bounds="5 5 270 100" Id="a60b661222cf417695e346c1df977126" Pattern="&quot;LED&quot;">
+										<Literal Bounds="65 15 120 15" DataType="String" Id="f7bad6c14e064a5eafb35dc682a8ac88" xmlns="http://www.ni.com/MocCommon">
+											<p.Data>FailLEDTest=True</p.Data>
+											<StringBehavior TextDisplayMode="Default" />
+										</Literal>
+										<Wire Id="6f166e64614145d281e91a0915e3b210" Joints="N(f7bad6c14e064a5eafb35dc682a8ac88:Out)|(185,20) N(74d10054884945cfb4a6eed242ad272a:a60b661222cf417695e346c1df977126)|(266,20)" xmlns="http://www.ni.com/PlatformFramework" />
+									</CaseStructure.Case>
+									<CaseStructure.Case Bounds="5 5 270 100" Id="cc9ea7de264d429f877eadd962eeba75" Pattern="&quot;Power&quot;">
+										<Literal Bounds="20 15 165 15" DataType="String" Id="9654e3beb7d64c83abf1a3558d3e2aa6" xmlns="http://www.ni.com/MocCommon">
+											<p.Data>Fail24VPowerCheck=True</p.Data>
+											<StringBehavior TextDisplayMode="Default" />
+										</Literal>
+										<Wire Id="e35651437f1c4a129b9c570c5ede9d87" Joints="N(9654e3beb7d64c83abf1a3558d3e2aa6:Out)|(185,20) N(74d10054884945cfb4a6eed242ad272a:cc9ea7de264d429f877eadd962eeba75)|(266,20)" xmlns="http://www.ni.com/PlatformFramework" />
+									</CaseStructure.Case>
+									<CaseStructure.Selector Bounds="-4 20 13 10" Docking="Left" Id="e8caa4d4ed03468f9b0b137e06894b8f" Terminals="97aa596020034734a862ad61563d30b7=2552a30e2f3e4a928e03ffd97e13e6f8, fb0b461f62c74d768b361933e9bad964, fb8108352cd74c1fb8a7217c2e8eaca3, a60b661222cf417695e346c1df977126, cc9ea7de264d429f877eadd962eeba75" />
+									<CaseStructure.Tunnel Bounds="271 20 13 10" Docking="Right" Id="74d10054884945cfb4a6eed242ad272a" Terminals="97aa596020034734a862ad61563d30b7=73992e02fbc4460d800cf9193b5341e1, fb0b461f62c74d768b361933e9bad964=df80c03a56624e519dd6a07e68245ac8, fb8108352cd74c1fb8a7217c2e8eaca3=2c7be05032e54fdfae3f4d24d4e1d344, a60b661222cf417695e346c1df977126=6f166e64614145d281e91a0915e3b210, cc9ea7de264d429f877eadd962eeba75=e35651437f1c4a129b9c570c5ede9d87" />
+								</CaseStructure>
+								<NodeLabel AttachedTo="b1f7d7ed7b8b4c6d8de08e6542bd85b1" Bounds="150 40 120 14" Id="ce150b09dd4045a89a34ce173f1d1962" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Manufacturing Failure</p.Text>
+								</NodeLabel>
+								<NodeLabel AttachedTo="97aa596020034734a862ad61563d30b7" Bounds="620 20 83 14" Id="6231a08a9efa4dab85f7c96b394b6c07" IsReadOnly="True" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
+									<p.Text>Case Structure</p.Text>
+								</NodeLabel>
+								<Wire Id="73992e02fbc4460d800cf9193b5341e1" Joints="N(74d10054884945cfb4a6eed242ad272a:97aa596020034734a862ad61563d30b7)|(619,45) N(2922:dd2c487c3194fbc8bfad26c1c315127)|(746,45)" xmlns="http://www.ni.com/PlatformFramework" />
+								<Wire Id="2552a30e2f3e4a928e03ffd97e13e6f8" Joints="N(b1f7d7ed7b8b4c6d8de08e6542bd85b1:Value)|(315,45) N(e8caa4d4ed03468f9b0b137e06894b8f:97aa596020034734a862ad61563d30b7)|(331,45)" xmlns="http://www.ni.com/PlatformFramework" />
+							</CaseStructure.Case>
 							<CaseStructure.Case Bounds="5 5 750 150" Id="3054" Pattern="&quot;Power Test.seq&quot;">
 								<Literal Bounds="495 30 90 15" DataType="String" Id="3055" xmlns="http://www.ni.com/MocCommon">
 									<p.Data>Amplitude=</p.Data>
@@ -149,9 +194,9 @@
 								</NodeLabel>
 								<Wire Id="3100" Joints="N(3098:Out)|(525,75) N(3097:precision (6\))|(545,75)" xmlns="http://www.ni.com/PlatformFramework" />
 							</CaseStructure.Case>
-							<CaseStructure.Selector Bounds="-4 20 13 10" Docking="Left" Id="2800" Terminals="2797=2794, 2798, 2799, 3054" />
-							<CaseStructure.Tunnel Bounds="751 45 13 10" Docking="Right" Id="2922" Terminals="2797=4938, 2798=2926, 2799=2921, 3054=3066" />
-							<CaseStructure.Tunnel Bounds="-4 35 13 10" Docking="Left" Id="4400" Terminals="2797=4399, 2798, 2799, 3054" />
+							<CaseStructure.Selector Bounds="-4 20 13 10" Docking="Left" Id="2800" Terminals="2797=2794, 2798, 2799, 3054, dd2c487c3194fbc8bfad26c1c315127" />
+							<CaseStructure.Tunnel Bounds="751 45 13 10" Docking="Right" Id="2922" Terminals="2797=4938, 2798=2926, 2799=2921, 3054=3066, dd2c487c3194fbc8bfad26c1c315127=73992e02fbc4460d800cf9193b5341e1" />
+							<CaseStructure.Tunnel Bounds="-4 35 13 10" Docking="Left" Id="4400" Terminals="2797=4399, 2798, 2799, 3054, dd2c487c3194fbc8bfad26c1c315127" />
 						</CaseStructure>
 						<Literal Bounds="1410 115 45 15" DataType="UInt32" Id="3046" Label="3047" xmlns="http://www.ni.com/MocCommon">
 							<p.Data>600</p.Data>
@@ -422,7 +467,7 @@
 				<LeftShiftRegister Bounds="-4 25 13 10" Docking="Left" Id="4494" RightRegister="4493" Terminals="o0=4492, i0=4517" />
 				<LoopTunnel Bounds="-4 205 13 10" Docking="Left" Id="4758" Terminals="o0=4890, i0=5012" />
 			</WhileLoop>
-			<MethodCall Bounds="-3660 440 40 40" Id="44" ResolveFailedHint="Open Configuration.gvi, Package: (NI SystemLink Common support for LabVIEW NXG 3.0, Version: 19.0.0)" Signature="@259998ac9b8944ef8fa7e72e8beb2917" Target="NI::Skyline::Configuration::Open Configuration.gvi" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="-3660 440 40 40" Id="44" ResolveFailedHint="Open Configuration.gvi, Package: (NI SystemLink Common support for LabVIEW NXG 3.0, Version: 19.0.0)" Signature="@2ad2c56d768e4306a8cc2711beb9b566" Target="NI::Skyline::Configuration::Open Configuration.gvi" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="server url" />
@@ -475,8 +520,8 @@
 					</Comment>
 				</CaseStructure.Case>
 				<CaseStructure.Case Bounds="5 5 430 210" Id="2284" Pattern="True">
-					<Literal Bounds="240 150 80 15" DataType="String" Id="2273" Label="2281" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>password</p.Data>
+					<Literal Bounds="280 150 40 15" DataType="String" Id="2273" Label="2281" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>""</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 					<Literal Bounds="345 140 60 15" DataType="String" Id="2275" Label="2280" xmlns="http://www.ni.com/MocCommon">
@@ -487,7 +532,7 @@
 						<p.Data>http://server</p.Data>
 						<StringBehavior SizeToContent="False" TextDisplayMode="Default" />
 					</Literal>
-					<NodeLabel AttachedTo="2273" Bounds="240 133 52 14" Id="2281" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="2273" Bounds="280 133 52 14" Id="2281" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Password</p.Text>
 					</NodeLabel>
 					<NodeLabel AttachedTo="2275" Bounds="345 123 56 14" Id="2280" xmlns="http://www.ni.com/PlatformFramework">
@@ -655,9 +700,9 @@
 			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Data Grid&quot;" Height="[float]16" Id="932" LabelOwner="[UIModel]929" Left="[float]71" Text="[string]Data Grid" Top="[float]240" Visible="[bool]False" Width="[float]57" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlButton BaseName="[string]Button" ClickMode="[ClickMode]Press" Content="[string]Run Sequence" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]40" Id="985" IsMomentary="[bool]False" Label="[UIModel]986" Left="[float]71" MinHeight="[float]13" MinWidth="[float]13" TabIndex="[int]1" Top="[float]196" Value="{DataItemBinding Id=983}" Width="[float]296" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
 			<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;class&quot;=&quot;ni-hidden&quot;,&quot;text&quot;=&quot;Run Sequence&quot;" Height="[float]16" Id="986" LabelOwner="[UIModel]985" Left="[float]71" Text="[string]Run Sequence" Top="[float]176" Visible="[bool]False" Width="[float]82" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
-			<HtmlTabControl BaseName="[string]Tab" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]172" Id="2929" IncludeInCapture="[bool]False" Label="[UIModel]2934" Left="[float]420" MinHeight="[float]55" MinWidth="[float]60" SelectedIndex="{DataItemBinding Id=2927}" TabIndex="[int]2" Top="[float]4" Width="[float]584" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+			<HtmlTabControl BaseName="[string]Tab" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]174" Id="2929" IncludeInCapture="[bool]False" Label="[UIModel]2934" Left="[float]420" MinHeight="[float]55" MinWidth="[float]60" SelectedIndex="{DataItemBinding Id=2927}" TabIndex="[int]2" Top="[float]4" Width="[float]584" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
 				<HtmlTabItem Extras="[Dictionary&lt;string, string&gt;]&quot;tab-position&quot;=&quot;0&quot;" Header="[string]Computer Motherboard Tests.seq" Id="2930" Left="[float]0" TabIndex="[int]2" Top="[float]0">
-					<HtmlLayoutPanel Extras="[Dictionary&lt;string, string&gt;]" Height="[float]147" Id="2932" Left="[float]1" MinFlexibleHeight="[float]175" Top="[float]24" Width="[float]582">
+					<HtmlLayoutPanel Extras="[Dictionary&lt;string, string&gt;]" Height="[float]149" Id="2932" Left="[float]1" MinFlexibleHeight="[float]175" Top="[float]24" Width="[float]582">
 						<HtmlRadioButtonGroup AllowDifferentText="[bool]False" BaseName="[string]Radio Button Group" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]96" Id="2005" Label="[UIModel]2006" Left="[float]17" TabIndex="[int]0" Top="[float]23" Value="{DataItemBinding Id=2003}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RadioButtonStyle" Width="[float]136">
 							<RadioButtonGroupInfo DisplayValue="[string]None" DisplayValueOverride="[string]None" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
 							<RadioButtonGroupInfo DisplayValue="[string]Keyboard" DisplayValueOverride="[string]Keyboard" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
@@ -668,9 +713,20 @@
 					</HtmlLayoutPanel>
 				</HtmlTabItem>
 				<HtmlTabItem Extras="[Dictionary&lt;string, string&gt;]&quot;tab-position&quot;=&quot;1&quot;" Header="[string]Power Test.seq" Id="2931" Left="[float]0" TabIndex="[int]2" Top="[float]0">
-					<HtmlLayoutPanel Extras="[Dictionary&lt;string, string&gt;]" Height="[float]147" Id="2933" Left="[float]1" MinFlexibleHeight="[float]175" Top="[float]24" Width="[float]582">
+					<HtmlLayoutPanel Extras="[Dictionary&lt;string, string&gt;]" Height="[float]149" Id="2933" Left="[float]1" MinFlexibleHeight="[float]175" Top="[float]24" Width="[float]582">
 						<HtmlNumericText BaseName="[string]Numeric" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]24" Id="3078" Label="[UIModel]3079" Left="[float]16" MinHeight="[float]16" MinWidth="[float]36" TabIndex="[int]0" Top="[float]20" Value="{DataItemBinding Id=3076}" ValueFormatter="[string]LV:G6" ValueType="[Type]Double" Width="[float]72" />
 						<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;text&quot;=&quot;Amplitude&quot;" Height="[float]16" Id="3079" LabelOwner="[UIModel]3078" Left="[float]16" Text="[string]Amplitude" Top="[float]0" Width="[float]62" />
+					</HtmlLayoutPanel>
+				</HtmlTabItem>
+				<HtmlTabItem Header="[string]Manufacturing Test.seq" Id="8eab1c45033140d9b988c711b6ed3eaf" Left="[float]0" Top="[float]0">
+					<HtmlLayoutPanel Height="[float]149" Id="c5ee16d955c947b2afe8b42d2726a2f0" Left="[float]1" MinFlexibleHeight="[float]175" MinHeight="[float]0" MinWidth="[float]0" Top="[float]24" Width="[float]582">
+						<HtmlRadioButtonGroup AllowDifferentText="[bool]False" BaseName="[string]Radio Button Group" Extras="[Dictionary&lt;string, string&gt;]" Height="[float]96" Id="4d735b4e6c0d44a6bfdf74ae34c272a3" Label="[UIModel]ff84f45b455b451db4de65c4ef6131fb" Left="[float]15" TabIndex="[int]0" Top="[float]29" Value="{DataItemBinding Id=d6ab33beb484481967e137e26cff74e}" ValueType="[Type]UInt16" VisualMode="[SelectorVisualMode]RadioButtonStyle" Width="[float]136">
+							<RadioButtonGroupInfo DisplayValue="[string]None" DisplayValueOverride="[string]None" IsEnabled="[bool]True" Value="[ushort]0" ValueType="[Type]UInt16" />
+							<RadioButtonGroupInfo DisplayValue="[string]Noise" DisplayValueOverride="[string]Noise" IsEnabled="[bool]True" Value="[ushort]1" ValueType="[Type]UInt16" />
+							<RadioButtonGroupInfo DisplayValue="[string]LED" DisplayValueOverride="[string]LED" IsEnabled="[bool]True" Value="[ushort]2" ValueType="[Type]UInt16" />
+							<RadioButtonGroupInfo DisplayValue="[string]Power" DisplayValueOverride="[string]Power" IsEnabled="[bool]True" Value="[ushort]3" ValueType="[Type]UInt16" />
+						</HtmlRadioButtonGroup>
+						<HtmlLabel Extras="[Dictionary&lt;string, string&gt;]&quot;text&quot;=&quot;Simulate Failure&quot;" Height="[float]16" Id="ff84f45b455b451db4de65c4ef6131fb" LabelOwner="[UIModel]4d735b4e6c0d44a6bfdf74ae34c272a3" Left="[float]15" Text="[string]Manufacturing Failure" Top="[float]9" Width="[float]123" />
 					</HtmlLayoutPanel>
 				</HtmlTabItem>
 			</HtmlTabControl>
@@ -697,7 +753,7 @@
 		<DataItem DataType="@eb894683b12c4da09abeb88869574128" Id="2003" Name="Simulate Failure" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
-		<DataItem AdaptToDiagramType="True" DataType="Int32" Id="2927" Name="Parameters" xmlns="http://www.ni.com/MocCommon">
+		<DataItem DataType="Int32" Id="2927" Name="Parameters" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="Double" Id="3076" Name="Amplitude" xmlns="http://www.ni.com/MocCommon">
@@ -714,6 +770,9 @@
 		</DataItem>
 		<DataItem AdaptToDiagramType="True" DataType="String" Id="4955" Name="Email" xmlns="http://www.ni.com/MocCommon">
 			<p.DefaultValue>""</p.DefaultValue>
+		</DataItem>
+		<DataItem DataType="@d8e8325befda46d6a2150589ed6b80fe" Id="d6ab33beb484481967e137e26cff74e" Name="Manufacturing Failure" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>0</p.DefaultValue>
 		</DataItem>
 	</VirtualInstrument>
 	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
@@ -752,6 +811,17 @@
 					<EnumerationMember Value="0" Name="None" />
 					<EnumerationMember Value="1" Name="Keyboard" />
 					<EnumerationMember Value="2" Name="Video" />
+					<EnumerationMember Value="3" Name="Power" />
+				</Members>
+				<DataType>UInt16</DataType>
+			</Enumeration>
+		</p.TypeReference>
+		<p.TypeReference TypeId="d8e8325befda46d6a2150589ed6b80fe">
+			<Enumeration>
+				<Members>
+					<EnumerationMember Value="0" Name="None" />
+					<EnumerationMember Value="1" Name="Noise" />
+					<EnumerationMember Value="2" Name="LED" />
 					<EnumerationMember Value="3" Name="Power" />
 				</Members>
 				<DataType>UInt16</DataType>
@@ -850,8 +920,8 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="259998ac9b8944ef8fa7e72e8beb2917">
-			<Attributed AttributedType="@b26d28239895485fab2265c8977c4ac5">
+		<p.TypeReference TypeId="2ad2c56d768e4306a8cc2711beb9b566">
+			<Attributed AttributedType="@96c51310e3bc406193eb34b05ee802de">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
@@ -898,7 +968,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]sequence" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@8f4b939282614f0689dd1ae52f3306a4">
+					<Attributed AttributedType="@bbd495875f6b419bb10b648a960f5e16">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]args" />
 						</AttributeValues>
@@ -1087,7 +1157,7 @@
 				</Parameters>
 			</Event>
 		</p.TypeReference>
-		<p.TypeReference TypeId="b26d28239895485fab2265c8977c4ac5">
+		<p.TypeReference TypeId="96c51310e3bc406193eb34b05ee802de">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Open Configuration.gvi" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@819dfa1ade0d4dbc979a24e564a9fe87">
@@ -1197,7 +1267,7 @@
 		<p.TypeReference TypeId="220583a21e89478494cdb6f042196131">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="String" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="8f4b939282614f0689dd1ae52f3306a4">
+		<p.TypeReference TypeId="bbd495875f6b419bb10b648a960f5e16">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L3" DataType="String" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="b5f2e03765c24dec9567384c2df719df">

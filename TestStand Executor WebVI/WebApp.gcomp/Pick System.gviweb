@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="43C1A3D77B16C1338D597BFE59F2CCA60E567E249B113D7FCEBAD7A8BDD03347A700099C0F8EE0518A808A84B14700C9699EA83BDF22909EB1B710313166B085" Timestamp="1D426D2D1CC48AC" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="BBF138DE4B17B281CEFCAA3A8B66179FDAFFF52A9E917BA53BFA1390D74D61273074A77DE6888163A5FFFEE4B383036E6D460F2F78C55CE766614FCDCE1195A0" Timestamp="1D54C0210BC7D5E" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.2.0.2103" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.1.0.3" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.2103" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.0" Version="6.2.0.1" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.2103" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.2" Version="6.2.0.2" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.2103" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.2103" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.2.0.2103" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.3" Version="6.2.0.3" />
-		<ApplicationVersionInfo Build="6.2.0.2103" Name="LabVIEW NXG" Version="3.0.0" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="6.2.0.49153" Version="6.2.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
 	</SourceModelFeatureSet>
 	<VirtualInstrument Id="1" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
 		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
@@ -81,7 +81,7 @@
 			<NodeLabel AttachedTo="177" Bounds="-92 85 52 14" Id="180" xmlns="http://www.ni.com/PlatformFramework">
 				<p.Text>sequence</p.Text>
 			</NodeLabel>
-			<MethodCall Bounds="25 85 40 40" Id="213" ResolveFailedHint="&quot;C:\\Users\\jprewitt\\Documents\\GitHub\\TestStand Executor WebVI - 3.0 Beta\\WebApp.gcomp\\Get Package Name.gviweb&quot;" Signature="@890874cc67794e9da5456904dd57487e" Target="WebApp::Get Package Name.gviweb" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="25 85 40 40" Id="213" ResolveFailedHint="&quot;C:\\Users\\jprewitt\\Documents\\GitHub\\teststand-executor\\TestStand Executor WebVI\\WebApp.gcomp\\Get Package Name.gviweb&quot;" Signature="@890874cc67794e9da5456904dd57487e" Target="WebApp::Get Package Name.gviweb" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="sequence" />
@@ -110,21 +110,21 @@
 				<Wire Id="436" Joints="N(443:i0)|(6,200) N(1283:654)|(176,200)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="439" Joints="N(1286:654)|(499,200) N(441:336)|(523,200)" xmlns="http://www.ni.com/PlatformFramework" />
 				<Wire Id="635" Joints="N(1289:654)|(499,120) N(356:336)|(523,120)" xmlns="http://www.ni.com/PlatformFramework" />
-				<PropertyNode Bounds="40 145 123 50" HasErrorTerminals="False" Id="650" InstanceDataType="@d3c51e0f46d547e99851a09569c96554" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
-					<PropertyItemTerminal DataType="String" Hotspot="123 15" Id="c0t0v" Path="id" PathElementMemberKinds="Field" Usage="Optional" />
-					<PropertyItemTerminal DataType="Int32" Hotspot="123 30" Id="c1t0v" Path="connected:state" PathElementMemberKinds="Field:Field" Usage="Optional" />
+				<PropertyNode Bounds="40 145 62 50" HasErrorTerminals="False" Id="650" InstanceDataType="@e125b0d3a68341b19b8aa4af468d3ff8" Mode="InstanceProperties" xmlns="http://www.ni.com/MocCommon">
+					<PropertyItemTerminal DataType="String" Hotspot="62 15" Id="c0t0v" Path="id" PathElementMemberKinds="Field" Usage="Optional" />
+					<PropertyItemTerminal DataType="String" Hotspot="62 30" Id="c1t0v" Path="state" PathElementMemberKinds="Field" Usage="Optional" />
 				</PropertyNode>
 				<Wire Id="651" Joints="N(398:i0)|(6,150) N(650:instance in)|(40,150)" xmlns="http://www.ni.com/PlatformFramework" />
-				<Wire Id="652" Joints="N(650:c0t0v)|(163,160) N(1292:654)|(176,160)" xmlns="http://www.ni.com/PlatformFramework" />
-				<CaseStructure Bounds="180 50 315 175" DataType="Int32" Default="655" Id="654" Selected="656" UserSelectorBounds="100 0 115 17">
-					<CaseStructure.Case Bounds="5 5 305 165" Id="655" Pattern="0, Default">
+				<Wire Id="652" Joints="N(650:c0t0v)|(102,160) N(1292:654)|(176,160)" xmlns="http://www.ni.com/PlatformFramework" />
+				<CaseStructure Bounds="180 50 315 175" DataType="String" Default="655" Id="654" Selected="655" UserSelectorBounds="54 0 208 17">
+					<CaseStructure.Case Bounds="5 5 305 165" Id="655" Pattern="&quot;DISCONNECTED&quot;, Default">
 						<Wire Id="1295" Joints="N(1277:655)|(4,50) N(1274:655)|(301,50)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="1296" Joints="N(1268:655)|(4,85) h(271) v(-65) N(1280:655)|(301,20)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="1297" Joints="N(1271:655)|(4,65) N(1289:655)|(301,65)" xmlns="http://www.ni.com/PlatformFramework" />
 						<Wire Id="1298" Joints="N(1283:655)|(4,145) N(1286:655)|(301,145)" xmlns="http://www.ni.com/PlatformFramework" />
 					</CaseStructure.Case>
-					<CaseStructure.Case Bounds="5 5 305 165" Id="656" Pattern="2">
-						<MethodCall Bounds="25 90 40 40" Id="334" ResolveFailedHint="&quot;C:\\Users\\jprewitt\\Documents\\GitHub\\TestStand Executor WebVI - 3.0 Beta\\WebApp.gcomp\\Active Jobs.gviweb&quot;" Signature="@7a6a29c59ad5424faf0d03c44b561345" Target="WebApp::Active Jobs.gviweb" xmlns="http://www.ni.com/MocCommon">
+					<CaseStructure.Case Bounds="5 5 305 165" Id="656" Pattern="&quot;CONNECTED&quot;">
+						<MethodCall Bounds="25 90 40 40" Id="334" ResolveFailedHint="&quot;C:\\Users\\jprewitt\\Documents\\GitHub\\teststand-executor\\TestStand Executor WebVI\\WebApp.gcomp\\Active Jobs.gviweb&quot;" Signature="@7a6a29c59ad5424faf0d03c44b561345" Target="WebApp::Active Jobs.gviweb" xmlns="http://www.ni.com/MocCommon">
 							<p.MethodDeclaration>
 								<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 									<Parameter Id="L0" Desc="configuration in" />
@@ -186,7 +186,7 @@
 					<CaseStructure.Tunnel Bounds="306 65 13 10" Docking="Right" Id="1289" Terminals="654=635, 655=1297, 656=1288" />
 					<CaseStructure.Tunnel Bounds="-4 105 13 10" Docking="Left" Id="1292" Terminals="654=652, 655, 656=1291" />
 				</CaseStructure>
-				<Wire Id="1294" Joints="N(650:c1t0v)|(163,175) N(657:654)|(176,175)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="1294" Joints="N(650:c1t0v)|(102,175) N(657:654)|(176,175)" xmlns="http://www.ni.com/PlatformFramework" />
 				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="337" Terminals="335, 336" />
 				<LoopTunnel Bounds="-5 137 13 10" Docking="Left" Id="346" Terminals="o0=431, i0=345" />
 				<LeftShiftRegister Bounds="-5 117 13 10" Docking="Left" Id="355" RightRegister="356" Terminals="o0=359, i0=352" />
@@ -217,7 +217,7 @@
 				<p.Text>minion id</p.Text>
 			</NodeLabel>
 			<Wire Id="377" Joints="N(371:335)|(686,45) N(318:Value)|(713,45)" xmlns="http://www.ni.com/PlatformFramework" />
-			<MethodCall Bounds="85 75 40 40" Id="419" ResolveFailedHint="&quot;C:\\Users\\jprewitt\\Documents\\GitHub\\TestStand Executor WebVI - 3.0 Beta\\WebApp.gcomp\\Filter Systems by Package.gviweb&quot;" Signature="@6e614f63c97449b8bc52fe460a04c290" Target="Filter Systems by Package.gviweb" xmlns="http://www.ni.com/MocCommon">
+			<MethodCall Bounds="85 75 40 40" Id="419" ResolveFailedHint="&quot;C:\\Users\\jprewitt\\Documents\\GitHub\\teststand-executor\\TestStand Executor WebVI\\WebApp.gcomp\\Filter Systems by Package.gviweb&quot;" Signature="@1609ff2102b64c22937996d54382e401" Target="Filter Systems by Package.gviweb" xmlns="http://www.ni.com/MocCommon">
 				<p.MethodDeclaration>
 					<MethodDeclaration xmlns="http://www.ni.com/PlatformFramework">
 						<Parameter Id="L0" Desc="configuration in" />
@@ -232,7 +232,7 @@
 				<Terminal DataType="String" Direction="Input" Hotspot="0 15" Id="L1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Input" Hotspot="0 25" Id="L2" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="@a1052910865a452c912f61a610c76300" Direction="Output" Hotspot="40 5" Id="R0" xmlns="http://www.ni.com/PlatformFramework" />
-				<Terminal DataType="@434ba1345ef548248671dce138350496" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
+				<Terminal DataType="@41a29bca2d4b4b3d806aa8305ce72987" Direction="Output" Hotspot="40 15" Id="R1" xmlns="http://www.ni.com/PlatformFramework" />
 				<Terminal DataType="Error" Direction="Output" Hotspot="40 25" Id="R2" xmlns="http://www.ni.com/PlatformFramework" />
 			</MethodCall>
 			<Wire Id="421" Joints="N(213:R0)|(65,90) N(419:L1)|(85,90)" xmlns="http://www.ni.com/PlatformFramework" />
@@ -329,13 +329,12 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="d3c51e0f46d547e99851a09569c96554">
+		<p.TypeReference TypeId="e125b0d3a68341b19b8aa4af468d3ff8">
 			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
 				<Members>
 					<Field FieldAccessPolicy="ReadWrite" Name="id" DataType="String" />
-					<Field FieldAccessPolicy="ReadWrite" Name="_id" DataType="@2232718e57cd4c43b07bf04f281ad607" />
-					<Field FieldAccessPolicy="ReadWrite" Name="grains" DataType="@9371f031bb6f487bb3b5db56ba966629" />
-					<Field FieldAccessPolicy="ReadWrite" Name="connected" DataType="@764312e969794ac8b7346291563c62ab" />
+					<Field FieldAccessPolicy="ReadWrite" Name="host" DataType="String" />
+					<Field FieldAccessPolicy="ReadWrite" Name="state" DataType="String" />
 				</Members>
 			</Composite>
 		</p.TypeReference>
@@ -347,16 +346,16 @@
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="6e614f63c97449b8bc52fe460a04c290">
-			<Attributed AttributedType="@91f83320f8674a15ae317e119b51a92b">
+		<p.TypeReference TypeId="1609ff2102b64c22937996d54382e401">
+			<Attributed AttributedType="@1ae1845e4df14a13a9edd16d67db4182">
 				<AttributeValues>
 					<AttributeValue Name="NI.ConnectorPaneHeight" Value="[int]40" />
 					<AttributeValue Name="NI.ConnectorPaneWidth" Value="[int]40" />
 				</AttributeValues>
 			</Attributed>
 		</p.TypeReference>
-		<p.TypeReference TypeId="434ba1345ef548248671dce138350496">
-			<VariableArray DereferenceType="@d3c51e0f46d547e99851a09569c96554" />
+		<p.TypeReference TypeId="41a29bca2d4b4b3d806aa8305ce72987">
+			<VariableArray DereferenceType="@e125b0d3a68341b19b8aa4af468d3ff8" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="71b723560680406c9212da285a2caf4d">
 			<Typedef TypedefName="Configuration.gtype" UnderlyingType="@33de2ede71fc461b85aa1c12a97dfd89" />
@@ -381,27 +380,6 @@
 					</Attributed>
 				</Parameters>
 			</Function>
-		</p.TypeReference>
-		<p.TypeReference TypeId="2232718e57cd4c43b07bf04f281ad607">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="$oid" DataType="String" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="9371f031bb6f487bb3b5db56ba966629">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="data" DataType="@76ef6814f0974517815f04519bc8f618" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
-		<p.TypeReference TypeId="764312e969794ac8b7346291563c62ab">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="state" DataType="Int32" />
-				</Members>
-			</Composite>
 		</p.TypeReference>
 		<p.TypeReference TypeId="2815fc5b11f7438fababf5a1c20c8c2d">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Active Jobs.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
@@ -444,7 +422,7 @@
 				</Parameters>
 			</Function>
 		</p.TypeReference>
-		<p.TypeReference TypeId="91f83320f8674a15ae317e119b51a92b">
+		<p.TypeReference TypeId="1ae1845e4df14a13a9edd16d67db4182">
 			<Function Id="1" IsStatic="True" IsConstructor="False" Name="Filter Systems by Package.gviweb" ReturnType="Void" GenericTypeDefinition="Void">
 				<Parameters>
 					<Attributed AttributedType="@0a7b72bba19542b3a871a48a2991cd9b">
@@ -467,7 +445,7 @@
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]configuration out" />
 						</AttributeValues>
 					</Attributed>
-					<Attributed AttributedType="@e7be7a647b1a4d0caa27b9cac29bc3e5">
+					<Attributed AttributedType="@8ce2cc9d9ca04912a05a234422d3b707">
 						<AttributeValues>
 							<AttributeValue Name="NI.UserDefinedName" Value="[string]systems" />
 						</AttributeValues>
@@ -497,13 +475,6 @@
 		<p.TypeReference TypeId="e3ec080e368f413ba4998a54fc721595">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="Boolean" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="76ef6814f0974517815f04519bc8f618">
-			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
-				<Members>
-					<Field FieldAccessPolicy="ReadWrite" Name="host" DataType="String" />
-				</Members>
-			</Composite>
-		</p.TypeReference>
 		<p.TypeReference TypeId="0a7b72bba19542b3a871a48a2991cd9b">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L0" DataType="@a1052910865a452c912f61a610c76300" />
 		</p.TypeReference>
@@ -528,8 +499,8 @@
 		<p.TypeReference TypeId="4a444218ed324db2ac8ec2ed267de936">
 			<Parameter InputParameterPassingRule="Recommended" OutputParameterPassingRule="NotAllowed" Name="L2" DataType="Error" />
 		</p.TypeReference>
-		<p.TypeReference TypeId="e7be7a647b1a4d0caa27b9cac29bc3e5">
-			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@434ba1345ef548248671dce138350496" />
+		<p.TypeReference TypeId="8ce2cc9d9ca04912a05a234422d3b707">
+			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R1" DataType="@41a29bca2d4b4b3d806aa8305ce72987" />
 		</p.TypeReference>
 		<p.TypeReference TypeId="447fb754baa8407183169c307186de49">
 			<Parameter InputParameterPassingRule="NotAllowed" OutputParameterPassingRule="Recommended" Name="R2" DataType="Error" />

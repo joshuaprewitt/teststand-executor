@@ -32,4 +32,20 @@
     <HasChild>False</HasChild>
     <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
   </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>D:\GitHub\teststand-executor\TestStand Executor WebVI\Builds\WebApp_Web Server</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>D:\GitHub\teststand-executor\TestStand Executor WebVI\Builds\WebApp_Web Server</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <HasChild>False</HasChild>
+    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
+  </Job>
 </JobList>

@@ -8,15 +8,15 @@ __Initial Server Setup__
 
 __Initial Client Setup__
 
-* Install TestStand 2017 64-bit (may work with other versions or just the runtime)
+* Install TestStand and LabVIEW 2019 64-bit (may work with other versions or just the runtime)
 * Install the SystemLink Client
 * Add the client to a SystemLink Server
 * See the [SystemLink YouTube channel](https://www.youtube.com/channel/UCJFhOcqtxl-5kDb-tclTggQ) for more information
 
 __Running this Example__
 
-* Install ni-teststandexecutor_1.0.0.4_windows_x64.nipkg on the client
-* Install ni-computermotherboardtest_1.0.0.0_windows_x64.nipkg on the client
+* Install ni-teststandexecutor_1.0.0.7_windows_x64.nipkg on the client
+* Install ni-computermotherboardtest_2.0.0.0_windows_x64.nipkg on the client
 * Reboot the client
 * Copy /plugins/test-executor folder to C:\Program Files\National Instruments\Shared\Web Server\htdocs\plugins\test-executor\ on the SystemLink Server
 * Copy /conf folder to C:\Users\jprewitt\Documents\GitHub\teststand-executor\conf\ on the SystemLink Server

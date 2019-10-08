@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="2DC4403F48CB259693F640FE7FACD87F91DE9AB2677A72DC912791F451AE869B52B58CB8DD62D0205988EC0D0D56E6AA6733190432329FE03A92BC38E28287A3" Timestamp="1D55D56EE51DC21" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A6B5E4158439120E34A3C71B53D3D2343B81A9B9C5A6C13349A941D7459436646B7FCDE7362FECD30FB995A991175C36F3C33D92DD3152E3812A2257821AB3AF" Timestamp="1D55D589E1899A4" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="6.2.0.49152" Version="6.2.0.49152" />
@@ -528,8 +528,8 @@
 						<p.Data>""</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
-					<Literal Bounds="350 140 55 15" DataType="String" Id="2275" Label="2280" xmlns="http://www.ni.com/MocCommon">
-						<p.Data>ldmin</p.Data>
+					<Literal Bounds="345 140 60 15" DataType="String" Id="2275" Label="2280" xmlns="http://www.ni.com/MocCommon">
+						<p.Data>admin</p.Data>
 						<StringBehavior TextDisplayMode="Default" />
 					</Literal>
 					<Literal Bounds="25 105 180 15" DataType="String" Id="2277" Label="2279" xmlns="http://www.ni.com/MocCommon">
@@ -539,7 +539,7 @@
 					<NodeLabel AttachedTo="2273" Bounds="280 133 52 14" Id="2281" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Password</p.Text>
 					</NodeLabel>
-					<NodeLabel AttachedTo="2275" Bounds="350 123 56 14" Id="2280" xmlns="http://www.ni.com/PlatformFramework">
+					<NodeLabel AttachedTo="2275" Bounds="345 123 56 14" Id="2280" xmlns="http://www.ni.com/PlatformFramework">
 						<p.Text>Username</p.Text>
 					</NodeLabel>
 					<NodeLabel AttachedTo="2277" Bounds="25 88 37 14" Id="2279" xmlns="http://www.ni.com/PlatformFramework">

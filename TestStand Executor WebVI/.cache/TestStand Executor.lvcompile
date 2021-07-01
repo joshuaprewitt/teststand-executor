@@ -13,8 +13,11 @@
     <BuildName>WebApp</BuildName>
     <State>Success</State>
     <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-04-04T14:54:24.2580366Z</StartTime>
     <HasChild>False</HasChild>
-    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
   </Job>
   <Job OutputType="WebApplication">
     <CurrentBuildId>
@@ -29,8 +32,11 @@
     <BuildName>WebApp</BuildName>
     <State>Success</State>
     <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-04-04T14:54:24.2580366Z</StartTime>
     <HasChild>False</HasChild>
-    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
   </Job>
   <Job OutputType="WebApplication">
     <CurrentBuildId>
@@ -45,7 +51,48 @@
     <BuildName>WebApp</BuildName>
     <State>Success</State>
     <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-04-04T14:54:24.2590360Z</StartTime>
     <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::Web Server::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="Distribution:NiPackagePartial">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>f844ec22-b743-4d16-9c5c-26498be3d5d8</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>f844ec22-b743-4d16-9c5c-26498be3d5d8</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\Package\ni-teststandexecutor_5.1.0.0_windows_x64.nipkg</OutputPath>
+    <BuildName>Package</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:04</LastTotalTime>
+    <StartTime>2021-07-01T21:03:08.4886641Z</StartTime>
+    <HasChild>True</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::NullTarget::Package.lvdist</QualifiedName>
+    <HintEnvoy>::NullTarget::Package.lvdist</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>4925bb71-654e-45f4-9629-18976c4c9fc2</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>Distribution:NiPackagePartial</ComponentSubtypeIdentifier>
+      <BuildId>f844ec22-b743-4d16-9c5c-26498be3d5d8</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2021-07-01T21:03:08.5676191Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
     <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
+    <HintEnvoy>::Web Server::Interactive::WebApp.gcomp</HintEnvoy>
   </Job>
 </JobList>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="9870BB922A062C59216F60C19E02732860CEB5C8E33E828C9080C8C58F014C6ECDC09B6761EDF6138AF0185C17B20B5F8BAD8941D615DF484F53E03451C41276" Timestamp="1D76EBCD4F17D0A" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="National Instruments" Product="TestStand Executor" ShortDescription="National Instruments TestStand Executor" TargetedProduct="LabVIEW" Version="5.1.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="722e3d7a8fca44fcb25190bb053908ca" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="ni-teststandexecutor" p3:DistributionCategory="Application" p3:MaintainerEmail="joshua.prewitt@ni.com" p3:MaintainerName="National Instruments" p3:PackageDisplayName="TestStand Executor" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="bdee8f5bd24d43759cf7ac7f858ee35e" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="7265fdf993cc4e3eaea9b08bc2eb7219" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RootLocation="ApplicationFiles_64" Target="::Web Server::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="961c4464683f447b96ad28549f8ad46c" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="21.1.0.30-0+d30" />
+	</DistributionDefinition>
+</SourceFile>

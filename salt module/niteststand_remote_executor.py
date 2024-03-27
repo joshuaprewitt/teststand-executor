@@ -28,7 +28,9 @@ def _get_webservice_user(**kwargs):
     webservice_user = None
     for key, value in kwargs.items():
         if key == '__pub_metadata':
-            webservice_user = value['user_login']
+            webservice_user = value["user_login"]
+    log.debug('Test executor user: "%s"', str(webservice_user))
+    log.debug('Test executor kwargs: "%s"', str(kwargs))
     return webservice_user
 
 

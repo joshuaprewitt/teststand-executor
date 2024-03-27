@@ -38,9 +38,10 @@ def execute(sequence_file, local_properties, **kwargs):
     webservice_user = _get_webservice_user(**kwargs)
     arg = '{0} execute "{1}" -v'.format(executor_path, sequence_file)
     if webservice_user:
-        arg = '{0} -u {1}'.format(arg, webservice_user)
+        arg = '{0} -u "{1}"'.format(arg, webservice_user)
     for property in local_properties:
         arg = '{0} {1}'.format(arg, property)
+    log.debug('Test executor cmd arg: "%s"', str(arg))
     return __salt__['cmd.run_all'](arg, python_shell=False)
 
 

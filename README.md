@@ -13,6 +13,36 @@ __Initial Client Setup__
 * Add the client to a SystemLink Server
 * See the [SystemLink YouTube channel](https://www.youtube.com/channel/UCJFhOcqtxl-5kDb-tclTggQ) for more information
 
+__Running TestStand Sequnces with SystemLink__
+* Copy or install test sequences to ```%PUBLIC%\Documents\National Instruments\TestStand 2023 (64-bit)```
+* Add SL user names to TestStand and add them to the administrator group
+* Make sure your TestStand sequence doesn't have any user prompts
+* args will be set as Locals Variables in TestStand
+* Job details should look like the following:
+```
+{  
+   "tgt":[  
+      "NI_PXIe-8880--SN-031062CE--MAC-00-80-2F-16-5C-C1"
+   ],
+   "metadata":{  
+      "queued": True,
+      "timout": 6000
+   },
+   "fun":[  
+      "niteststand_remote_executor.execute"
+   ],
+   "arg":[  
+      [  
+         "Computer Motherboard Tests.seq",
+         [  
+            "Video=12",
+            "EmailAddress=your@email.com"
+         ]
+      ]
+   ]
+}
+```
+
 __Running this Example__
 
 * Install ni-teststandexecutor_1.0.0.7_windows_x64.nipkg on the client

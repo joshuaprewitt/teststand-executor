@@ -54,7 +54,7 @@ def can_execute(sequence_file, **kwargs):
     arg = '{0} find "{1}" -v'.format(executor_path, sequence_file)
     webservice_user = _get_webservice_user(**kwargs)
     if webservice_user:
-        arg = '{0} -u {1}'.format(arg, webservice_user)
+        arg = '{0} -u "{1}"'.format(arg, webservice_user)
     find_cmd_ret = __salt__['cmd.run_all'](arg, python_shell=False)
     if find_cmd_ret['retcode'] is not 0:
         ret['can_execute'] = False
@@ -67,6 +67,6 @@ def list_sequences(pattern=None, **kwargs):
         arg = '{0} {1}'.format(arg, pattern)
     webservice_user = _get_webservice_user(**kwargs)
     if webservice_user:
-        arg = '{0} -u {1}'.format(arg, webservice_user)
+        arg = '{0} -u "{1}"'.format(arg, webservice_user)
     list_cmd_ret = __salt__['cmd.run_all'](arg, python_shell=False)
     return list_cmd_ret['stdout'].replace('\r', '').split('\n')

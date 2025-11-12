@@ -4,9 +4,9 @@ Description: Command-line utility for executing TestStand sequences.
 Maintainer: NI <support@ni.com>
 Package: ni-teststand-executor
 Section: Application Software
-Version: 2.0.0.5
+Version: 2.0.0.8
 XB-DisplayName: TestStand Executor
 XB-Plugin: file
-XB-StoreProduct: no
+XB-StoreProduct: yes
 XB-UserVisible: yes
 XB-VisibleForRuntimeDeployment: no

@@ -1,14 +1,15 @@
 from __future__ import absolute_import
 
-import logging
-from datetime import datetime, timedelta
-from pathlib import Path
 import json
-import requests
+import logging
 import subprocess
 import tempfile
 import time
 import uuid
+from datetime import datetime, timedelta
+from pathlib import Path
+
+import requests
 
 # Module: niteststand_remote_executor
 # Purpose: Salt execution module that wraps the TestStand Executor CLI and
@@ -21,12 +22,12 @@ __virtualname__ = 'niteststand_remote_executor'
 log = logging.getLogger(__name__)
 
 # Path to the external TestStand Executor binary used to run sequences.
-executor_path = (
+EXECUTOR_PATH = (
     r"C:\Program Files\National Instruments\TestStand Executor\NationalInstruments.TestStandExecutor.exe"
 )
 
 # Location of SystemLink http_master.json that contains the server Uri and ApiKey
-config_path = Path(r"C:\ProgramData\National Instruments\Skyline\HttpConfigurations\http_master.json")
+CONFIG_PATH = Path(r"C:\ProgramData\National Instruments\Skyline\HttpConfigurations\http_master.json")
 
 # Globals populated at import; guarded for safety
 base_uri = None
@@ -41,14 +42,14 @@ def __virtual__():
 def _load_config():
     global base_uri, api_key
     try:
-        with open(config_path, "r", encoding="utf-8") as f:
+        with open(CONFIG_PATH, "r", encoding="utf-8") as f:
             cfg = json.load(f)
         base_uri = (cfg.get("Uri") or "").rstrip("/")
         api_key = cfg.get("ApiKey")
         if not base_uri or not api_key:
             log.warning("SystemLink config loaded but Uri/ApiKey missing: %s", cfg)
     except FileNotFoundError:
-        log.error("SystemLink config not found at %s", config_path)
+        log.error("SystemLink config not found at %s", CONFIG_PATH)
     except Exception as e:
         log.exception("Failed to load SystemLink config: %s", e)
 
@@ -58,7 +59,24 @@ _load_config()
 
 def _executor_installed():
     # Quick check whether the TestStand Executor executable exists on disk
-    return Path(executor_path).exists()
+    return Path(EXECUTOR_PATH).exists()
+
+
+def _build_headers():
+    return {"x-ni-api-key": api_key, "Accept": "application/json"}
+
+
+def _fetch_json(url, error_context):
+    try:
+        response = requests.get(url, headers=_build_headers(), timeout=10)
+        response.raise_for_status()
+        return response.json() or {}
+    except requests.exceptions.HTTPError:
+        log.error("%s (%s): %s", error_context, response.status_code, response.text)
+    except Exception as e:
+        log.exception("Unexpected error during %s: %s", error_context, e)
+
+    return None
 
 
 def _get_webservice_user(**kwargs):
@@ -266,7 +284,7 @@ def execute(sequence_file, local_properties, **kwargs):
         return {"retcode": 1, "stderr": "SystemLink config is missing Uri/ApiKey", "stdout": ""}
 
     test_plan_id = None
-    args = [executor_path, "execute", sequence_file, "-v"]
+    args = [EXECUTOR_PATH, "execute", sequence_file, "-v"]
 
     # If this was invoked from the webservice pass the original user to the executor
     webservice_user = _get_webservice_user(**kwargs)
@@ -319,7 +337,7 @@ def can_execute(sequence_file, **kwargs):
         return ret
 
     # Ask the TestStand Executor to find the sequence file on disk
-    args = [executor_path, "find", sequence_file, "-v"]
+    args = [EXECUTOR_PATH, "find", sequence_file, "-v"]
     webservice_user = _get_webservice_user(**kwargs)
     if webservice_user:
         args += ["-u", webservice_user]
@@ -331,7 +349,7 @@ def can_execute(sequence_file, **kwargs):
 
 
 def list_sequences(pattern=None, **kwargs):
-    args = [executor_path, "list"]
+    args = [EXECUTOR_PATH, "list"]
     if pattern:
         args.append(pattern)
     webservice_user = _get_webservice_user(**kwargs)
@@ -357,19 +375,13 @@ def get_dut_serial_number(testplan_id):
         return None
 
     url = "{0}/niapm/v1/assets/{1}".format(base_uri, dut_id)
-    headers = {"x-ni-api-key": api_key, "Accept": "application/json"}
+    data = _fetch_json(url, "Asset request failed")
+    if not data:
+        return None
 
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        serial_number = data.get("serialNumber")
-        log.debug("Serial Number: %s", serial_number)
-        return serial_number
-    except requests.exceptions.HTTPError:
-        log.error("Asset request failed (%s): %s", response.status_code, response.text)
-    except Exception as e:
-        log.exception("Unexpected error retrieving serial number: %s", e)
+    serial_number = data.get("serialNumber")
+    log.debug("Serial Number: %s", serial_number)
+    return serial_number
 
     return None
 
@@ -380,19 +392,13 @@ def get_dut_id(testplan_id):
         return None
 
     url = "{0}/niworkorder/v1/testplans/{1}".format(base_uri, testplan_id)
-    headers = {"x-ni-api-key": api_key, "Accept": "application/json"}
+    data = _fetch_json(url, "Testplan request failed")
+    if not data:
+        return None
 
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        dut_id = data.get("dutId")
-        log.debug("DUT ID: %s (TestPlanId=%s)", dut_id, testplan_id)
-        return dut_id
-    except requests.exceptions.HTTPError:
-        log.error("Testplan request failed (%s): %s", response.status_code, response.text)
-    except Exception as e:
-        log.exception("Unexpected error retrieving DUT ID: %s", e)
+    dut_id = data.get("dutId")
+    log.debug("DUT ID: %s (TestPlanId=%s)", dut_id, testplan_id)
+    return dut_id
 
     return None
 
@@ -411,25 +417,23 @@ def get_testplan_interactive(testplan_id):
         return False
 
     url = "{0}/niworkorder/v1/testplans/{1}".format(base_uri, testplan_id)
-    headers = {"x-ni-api-key": api_key, "Accept": "application/json"}
-
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        data = response.json() or {}
-
-        props = data.get("properties") or {}
-        val = props.get("Interactive") or props.get("interactive")
-
-        if isinstance(val, bool):
-            return val
-        if isinstance(val, str):
-            return val.lower() == "true"
-
+    data = _fetch_json(url, "Testplan request failed")
+    if not data:
         return False
-    except requests.exceptions.HTTPError:
-        log.error("Testplan request failed (%s): %s", response.status_code, response.text)
-    except Exception as e:
-        log.exception("Unexpected error retrieving testplan Interactive flag: %s", e)
+
+    props = data.get("properties") or {}
+    val = (
+        props.get("Interactive")
+        or props.get("interactive")
+        or data.get("Interactive")
+        or data.get("interactive")
+    )
+
+    if isinstance(val, bool):
+        return val
+    if isinstance(val, str):
+        return val.lower() == "true"
+
+    return False
 
     return False
